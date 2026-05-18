@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 18px;
+  }
+  :root {
+    /* Playful Premium Palette - Joyful, Bright, & Clean */
+    /* Backgrounds: Warm, soft whites */
+    --color-sky-start: #FDFDFD;
+    --color-sky-end: #FFF9F5; /* Very subtle warm tint */
+    
+    /* Primary Accents - Friendly & Vibrant */
+    --color-grass-start: #4ADE80; /* Soft Green */
+    --color-grass-end: #22C55E;   /* Green */
+    --color-grass-accent-1: #86EFAC;
+    --color-grass-accent-2: #4ADE80;
+    --color-grass-accent-3: #22C55E;
+    
+    /* Secondary Accents - Warmth */
+    --color-sun-start: #FEF3C7;
+    --color-sun-end: #FDE68A;
+    
+    /* Neutral/Dark tones - Softer than pure black */
+    --color-earth-1: #4B5563;
+    --color-earth-2: #1F2937;
+    --color-earth-3: #9CA3AF;
+
+    /* Feedback Palette - Encouraging */
+    --color-success-bg: #DCFCE7;
+    --color-success-text: #15803D;
+    --color-success-btn: #22C55E;
+    --color-success-btn-shadow: #15803D; /* Subtle shadow for depth */
+    
+    --color-error-bg: #FEE2E2;
+    --color-error-text: #B91C1C;
+    --color-error-btn: #EF4444;
+    --color-error-btn-shadow: #B91C1C;
+
+    /* UI Elements Palette */
+    /* Primary Brand Color - Friendly Blue */
+    --color-primary-blue: #3B82F6;
+    --color-primary-blue-shadow: #1D4ED8;
+    
+    --color-progress-green: #22C55E;
+    --color-progress-bg: #E5E7EB;
+    
+    --color-heart-pink: #F43F5E; /* Rose */
+    --color-text-grey: #6B7280;
+    
+    --color-option-selected-bg: #EFF6FF;
+    --color-option-selected-border: #3B82F6;
+    
+    --color-level-complete-title: #F59E0B; /* Amber */
+  }
+}
+
+html {
+  /* Support for safe area insets on mobile devices */
+  /* Capacitor SafeArea plugin injects --safe-area-inset-* variables on Android */
+  --sat: var(--safe-area-inset-top, env(safe-area-inset-top, 0px));
+  --sar: var(--safe-area-inset-right, env(safe-area-inset-right, 0px));
+  --sab: var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px));
+  --sal: var(--safe-area-inset-left, env(safe-area-inset-left, 0px));
+}
+
+body {
+  @apply font-sans antialiased;
+  padding-top: var(--sat);
+}

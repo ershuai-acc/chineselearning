@@ -1,0 +1,79 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         String   @id @default(cuid())
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  deviceId   String?  @unique
+  nickname   String?
+  avatar     String?
+  progress   Progress[]
+  vocabulary Vocabulary[]
+}
+
+model Album {
+  id          String   @id @db.VarChar(64)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  name        String
+  nameEn      String
+  icon        String
+  coverImage  String?  @db.Text
+  language    String   @db.VarChar(8)
+  description String?
+  sortOrder   Int      @default(0)
+  lessons     Lesson[]
+
+  @@index([language, sortOrder])
+}
+
+model Lesson {
+  id         String   @id @default(cuid())
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  title      String
+  content    String   @db.LongText
+  coverImage String?
+  language   String   @default("zh")
+  albumId    String?  @db.VarChar(64)
+  album      Album?   @relation(fields: [albumId], references: [id])
+  progress   Progress[]
+
+  @@index([albumId])
+}
+
+model Progress {
+  id            String   @id @default(cuid())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  userId        String
+  lessonId      String
+  user          User     @relation(fields: [userId], references: [id])
+  lesson        Lesson   @relation(fields: [lessonId], references: [id])
+  levelProgress String   @db.Text
+
+  @@unique([userId, lessonId])
+}
+
+model Vocabulary {
+  id                 String   @id @default(cuid())
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  userId             String
+  word               String
+  language           String   @default("zh")
+  definition         String?  @db.Text
+  phonetic           String?
+  sourceContext      String?  @db.Text
+  lessonId           String?
+  user               User     @relation(fields: [userId], references: [id])
+
+  @@unique([userId, word, language])
+}
