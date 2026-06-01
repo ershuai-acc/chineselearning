@@ -1,0 +1,321 @@
+{
+  "id": "soushenji-song-dingbo",
+  "title": "宋定伯卖鬼",
+  "titleEn": "Song Dingbo Sells a Ghost",
+  "description": "A clever young man tricks a ghost and sells it at the market. FromErta Sou Shen Ji (4th century supernatural tales).",
+  "source": "搜神记",
+  "sourceEn": "In Search of the Supernatural",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "很久以前，有一个年轻人叫宋定伯。",
+      "pinyin": "Hěn jiǔ yǐqián, yǒu yí gè niánqīng rén jiào Sòng Dìngbó.",
+      "translation": "Long ago, there was a young man named Song Dingbo.",
+      "words": [
+        {"id": "s01-0", "hanzi": "很久以前", "pinyin": "hěn jiǔ yǐqián"},
+        {"id": "s01-1", "hanzi": "，", "pinyin": ","},
+        {"id": "s01-2", "hanzi": "有", "pinyin": "yǒu"},
+        {"id": "s01-3", "hanzi": "一个", "pinyin": "yí gè"},
+        {"id": "s01-4", "hanzi": "年轻人", "pinyin": "niánqīng rén"},
+        {"id": "s01-5", "hanzi": "叫", "pinyin": "jiào"},
+        {"id": "s01-6", "hanzi": "宋定伯", "pinyin": "Sòng Dìngbó"},
+        {"id": "s01-7", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "一天晚上，他一个人走路去城里。",
+      "pinyin": "Yì tiān wǎnshang, tā yí gè rén zǒulù qù chéng lǐ.",
+      "translation": "One evening, he was walking alone to the city.",
+      "words": [
+        {"id": "s02-0", "hanzi": "一天", "pinyin": "yì tiān"},
+        {"id": "s02-1", "hanzi": "晚上", "pinyin": "wǎnshang"},
+        {"id": "s02-2", "hanzi": "，", "pinyin": ","},
+        {"id": "s02-3", "hanzi": "他", "pinyin": "tā"},
+        {"id": "s02-4", "hanzi": "一个人", "pinyin": "yí gè rén"},
+        {"id": "s02-5", "hanzi": "走路", "pinyin": "zǒulù"},
+        {"id": "s02-6", "hanzi": "去", "pinyin": "qù"},
+        {"id": "s02-7", "hanzi": "城里", "pinyin": "chéng lǐ"},
+        {"id": "s02-8", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "路上很黑，他突然看见一个人。",
+      "pinyin": "Lù shàng hěn hēi, tā tūrán kànjiàn yí gè rén.",
+      "translation": "The road was very dark, and he suddenly saw someone.",
+      "words": [
+        {"id": "s03-0", "hanzi": "路上", "pinyin": "lù shàng"},
+        {"id": "s03-1", "hanzi": "很", "pinyin": "hěn"},
+        {"id": "s03-2", "hanzi": "黑", "pinyin": "hēi"},
+        {"id": "s03-3", "hanzi": "，", "pinyin": ","},
+        {"id": "s03-4", "hanzi": "他", "pinyin": "tā"},
+        {"id": "s03-5", "hanzi": "突然", "pinyin": "tūrán"},
+        {"id": "s03-6", "hanzi": "看见", "pinyin": "kànjiàn"},
+        {"id": "s03-7", "hanzi": "一个", "pinyin": "yí gè"},
+        {"id": "s03-8", "hanzi": "人", "pinyin": "rén"},
+        {"id": "s03-9", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "宋定伯问他：你是谁？",
+      "pinyin": "Sòng Dìngbó wèn tā: nǐ shì shéi?",
+      "translation": "Song Dingbo asked him: Who are you?",
+      "words": [
+        {"id": "s04-0", "hanzi": "宋定伯", "pinyin": "Sòng Dìngbó"},
+        {"id": "s04-1", "hanzi": "问", "pinyin": "wèn"},
+        {"id": "s04-2", "hanzi": "他", "pinyin": "tā"},
+        {"id": "s04-3", "hanzi": "：", "pinyin": ":"},
+        {"id": "s04-4", "hanzi": "你", "pinyin": "nǐ"},
+        {"id": "s04-5", "hanzi": "是", "pinyin": "shì"},
+        {"id": "s04-6", "hanzi": "谁", "pinyin": "shéi"},
+        {"id": "s04-7", "hanzi": "？", "pinyin": "?"}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "那个人说：我是鬼。你呢？",
+      "pinyin": "Nà gè rén shuō: wǒ shì guǐ. Nǐ ne?",
+      "translation": "That person said: I am a ghost. And you?",
+      "words": [
+        {"id": "s05-0", "hanzi": "那个", "pinyin": "nà gè"},
+        {"id": "s05-1", "hanzi": "人", "pinyin": "rén"},
+        {"id": "s05-2", "hanzi": "说", "pinyin": "shuō"},
+        {"id": "s05-3", "hanzi": "：", "pinyin": ":"},
+        {"id": "s05-4", "hanzi": "我", "pinyin": "wǒ"},
+        {"id": "s05-5", "hanzi": "是", "pinyin": "shì"},
+        {"id": "s05-6", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s05-7", "hanzi": "。", "pinyin": "."},
+        {"id": "s05-8", "hanzi": "你", "pinyin": "nǐ"},
+        {"id": "s05-9", "hanzi": "呢", "pinyin": "ne"},
+        {"id": "s05-10", "hanzi": "？", "pinyin": "?"}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "宋定伯不害怕。",
+      "pinyin": "Sòng Dìngbó bú hàipà.",
+      "translation": "Song Dingbo was not afraid.",
+      "words": [
+        {"id": "s06-0", "hanzi": "宋定伯", "pinyin": "Sòng Dìngbó"},
+        {"id": "s06-1", "hanzi": "不", "pinyin": "bú"},
+        {"id": "s06-2", "hanzi": "害怕", "pinyin": "hàipà"},
+        {"id": "s06-3", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "他骗鬼说：我也是鬼，我是新鬼。",
+      "pinyin": "Tā piàn guǐ shuō: wǒ yě shì guǐ, wǒ shì xīn guǐ.",
+      "translation": "He tricked the ghost and said: I am also a ghost, I am a new ghost.",
+      "words": [
+        {"id": "s07-0", "hanzi": "他", "pinyin": "tā"},
+        {"id": "s07-1", "hanzi": "骗", "pinyin": "piàn"},
+        {"id": "s07-2", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s07-3", "hanzi": "说", "pinyin": "shuō"},
+        {"id": "s07-4", "hanzi": "：", "pinyin": ":"},
+        {"id": "s07-5", "hanzi": "我", "pinyin": "wǒ"},
+        {"id": "s07-6", "hanzi": "也", "pinyin": "yě"},
+        {"id": "s07-7", "hanzi": "是", "pinyin": "shì"},
+        {"id": "s07-8", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s07-9", "hanzi": "，", "pinyin": ","},
+        {"id": "s07-10", "hanzi": "我", "pinyin": "wǒ"},
+        {"id": "s07-11", "hanzi": "是", "pinyin": "shì"},
+        {"id": "s07-12", "hanzi": "新鬼", "pinyin": "xīn guǐ"},
+        {"id": "s07-13", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "鬼说：我们一起走吧。",
+      "pinyin": "Guǐ shuō: wǒmen yìqǐ zǒu ba.",
+      "translation": "The ghost said: Let's walk together.",
+      "words": [
+        {"id": "s08-0", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s08-1", "hanzi": "说", "pinyin": "shuō"},
+        {"id": "s08-2", "hanzi": "：", "pinyin": ":"},
+        {"id": "s08-3", "hanzi": "我们", "pinyin": "wǒmen"},
+        {"id": "s08-4", "hanzi": "一起", "pinyin": "yìqǐ"},
+        {"id": "s08-5", "hanzi": "走", "pinyin": "zǒu"},
+        {"id": "s08-6", "hanzi": "吧", "pinyin": "ba"},
+        {"id": "s08-7", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "走了一会儿，鬼说：走路太累了，我们轮流背吧。",
+      "pinyin": "Zǒu le yíhuìr, guǐ shuō: zǒulù tài lèi le, wǒmen lúnliú bēi ba.",
+      "translation": "After walking a while, the ghost said: Walking is too tiring, let's take turns carrying each other.",
+      "words": [
+        {"id": "s09-0", "hanzi": "走了", "pinyin": "zǒu le"},
+        {"id": "s09-1", "hanzi": "一会儿", "pinyin": "yíhuìr"},
+        {"id": "s09-2", "hanzi": "，", "pinyin": ","},
+        {"id": "s09-3", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s09-4", "hanzi": "说", "pinyin": "shuō"},
+        {"id": "s09-5", "hanzi": "：", "pinyin": ":"},
+        {"id": "s09-6", "hanzi": "走路", "pinyin": "zǒulù"},
+        {"id": "s09-7", "hanzi": "太", "pinyin": "tài"},
+        {"id": "s09-8", "hanzi": "累了", "pinyin": "lèi le"},
+        {"id": "s09-9", "hanzi": "，", "pinyin": ","},
+        {"id": "s09-10", "hanzi": "我们", "pinyin": "wǒmen"},
+        {"id": "s09-11", "hanzi": "轮流", "pinyin": "lúnliú"},
+        {"id": "s09-12", "hanzi": "背", "pinyin": "bēi"},
+        {"id": "s09-13", "hanzi": "吧", "pinyin": "ba"},
+        {"id": "s09-14", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "鬼先背宋定伯，然后说：你太重了！",
+      "pinyin": "Guǐ xiān bēi Sòng Dìngbó, ránhòu shuō: nǐ tài zhòng le!",
+      "translation": "The ghost carried Song Dingbo first, then said: You are too heavy!",
+      "words": [
+        {"id": "s10-0", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s10-1", "hanzi": "先", "pinyin": "xiān"},
+        {"id": "s10-2", "hanzi": "背", "pinyin": "bēi"},
+        {"id": "s10-3", "hanzi": "宋定伯", "pinyin": "Sòng Dìngbó"},
+        {"id": "s10-4", "hanzi": "，", "pinyin": ","},
+        {"id": "s10-5", "hanzi": "然后", "pinyin": "ránhòu"},
+        {"id": "s10-6", "hanzi": "说", "pinyin": "shuō"},
+        {"id": "s10-7", "hanzi": "：", "pinyin": ":"},
+        {"id": "s10-8", "hanzi": "你", "pinyin": "nǐ"},
+        {"id": "s10-9", "hanzi": "太", "pinyin": "tài"},
+        {"id": "s10-10", "hanzi": "重了", "pinyin": "zhòng le"},
+        {"id": "s10-11", "hanzi": "！", "pinyin": "!"}
+      ]
+    },
+    {
+      "id": "s11",
+      "text": "宋定伯说：因为我是新鬼，所以比较重。",
+      "pinyin": "Sòng Dìngbó shuō: yīnwèi wǒ shì xīn guǐ, suǒyǐ bǐjiào zhòng.",
+      "translation": "Song Dingbo said: Because I am a new ghost, so I am heavier.",
+      "words": [
+        {"id": "s11-0", "hanzi": "宋定伯", "pinyin": "Sòng Dìngbó"},
+        {"id": "s11-1", "hanzi": "说", "pinyin": "shuō"},
+        {"id": "s11-2", "hanzi": "：", "pinyin": ":"},
+        {"id": "s11-3", "hanzi": "因为", "pinyin": "yīnwèi"},
+        {"id": "s11-4", "hanzi": "我", "pinyin": "wǒ"},
+        {"id": "s11-5", "hanzi": "是", "pinyin": "shì"},
+        {"id": "s11-6", "hanzi": "新鬼", "pinyin": "xīn guǐ"},
+        {"id": "s11-7", "hanzi": "，", "pinyin": ","},
+        {"id": "s11-8", "hanzi": "所以", "pinyin": "suǒyǐ"},
+        {"id": "s11-9", "hanzi": "比较", "pinyin": "bǐjiào"},
+        {"id": "s11-10", "hanzi": "重", "pinyin": "zhòng"},
+        {"id": "s11-11", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s12",
+      "text": "宋定伯又问：鬼最怕什么？",
+      "pinyin": "Sòng Dìngbó yòu wèn: guǐ zuì pà shénme?",
+      "translation": "Song Dingbo asked again: What are ghosts most afraid of?",
+      "words": [
+        {"id": "s12-0", "hanzi": "宋定伯", "pinyin": "Sòng Dìngbó"},
+        {"id": "s12-1", "hanzi": "又", "pinyin": "yòu"},
+        {"id": "s12-2", "hanzi": "问", "pinyin": "wèn"},
+        {"id": "s12-3", "hanzi": "：", "pinyin": ":"},
+        {"id": "s12-4", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s12-5", "hanzi": "最", "pinyin": "zuì"},
+        {"id": "s12-6", "hanzi": "怕", "pinyin": "pà"},
+        {"id": "s12-7", "hanzi": "什么", "pinyin": "shénme"},
+        {"id": "s12-8", "hanzi": "？", "pinyin": "?"}
+      ]
+    },
+    {
+      "id": "s13",
+      "text": "鬼说：鬼最怕人往身上吐口水。",
+      "pinyin": "Guǐ shuō: guǐ zuì pà rén wǎng shēn shàng tǔ kǒushuǐ.",
+      "translation": "The ghost said: Ghosts are most afraid of people spitting on them.",
+      "words": [
+        {"id": "s13-0", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s13-1", "hanzi": "说", "pinyin": "shuō"},
+        {"id": "s13-2", "hanzi": "：", "pinyin": ":"},
+        {"id": "s13-3", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s13-4", "hanzi": "最怕", "pinyin": "zuì pà"},
+        {"id": "s13-5", "hanzi": "人", "pinyin": "rén"},
+        {"id": "s13-6", "hanzi": "往", "pinyin": "wǎng"},
+        {"id": "s13-7", "hanzi": "身上", "pinyin": "shēn shàng"},
+        {"id": "s13-8", "hanzi": "吐", "pinyin": "tǔ"},
+        {"id": "s13-9", "hanzi": "口水", "pinyin": "kǒushuǐ"},
+        {"id": "s13-10", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s14",
+      "text": "快到城里的时候，宋定伯突然抓住鬼，不放手。",
+      "pinyin": "Kuài dào chéng lǐ de shíhou, Sòng Dìngbó tūrán zhuāzhù guǐ, bú fàngshǒu.",
+      "translation": "When they were about to reach the city, Song Dingbo suddenly grabbed the ghost and wouldn't let go.",
+      "words": [
+        {"id": "s14-0", "hanzi": "快", "pinyin": "kuài"},
+        {"id": "s14-1", "hanzi": "到", "pinyin": "dào"},
+        {"id": "s14-2", "hanzi": "城里", "pinyin": "chéng lǐ"},
+        {"id": "s14-3", "hanzi": "的时候", "pinyin": "de shíhou"},
+        {"id": "s14-4", "hanzi": "，", "pinyin": ","},
+        {"id": "s14-5", "hanzi": "宋定伯", "pinyin": "Sòng Dìngbó"},
+        {"id": "s14-6", "hanzi": "突然", "pinyin": "tūrán"},
+        {"id": "s14-7", "hanzi": "抓住", "pinyin": "zhuāzhù"},
+        {"id": "s14-8", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s14-9", "hanzi": "，", "pinyin": ","},
+        {"id": "s14-10", "hanzi": "不", "pinyin": "bú"},
+        {"id": "s14-11", "hanzi": "放手", "pinyin": "fàngshǒu"},
+        {"id": "s14-12", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s15",
+      "text": "鬼变成了一只羊！",
+      "pinyin": "Guǐ biànchéng le yì zhī yáng!",
+      "translation": "The ghost turned into a sheep!",
+      "words": [
+        {"id": "s15-0", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s15-1", "hanzi": "变成了", "pinyin": "biànchéng le"},
+        {"id": "s15-2", "hanzi": "一只", "pinyin": "yì zhī"},
+        {"id": "s15-3", "hanzi": "羊", "pinyin": "yáng"},
+        {"id": "s15-4", "hanzi": "！", "pinyin": "!"}
+      ]
+    },
+    {
+      "id": "s16",
+      "text": "宋定伯马上往羊身上吐口水，鬼就不能再变了。",
+      "pinyin": "Sòng Dìngbó mǎshàng wǎng yáng shēn shàng tǔ kǒushuǐ, guǐ jiù bù néng zài biàn le.",
+      "translation": "Song Dingbo immediately spat on the sheep, so the ghost could no longer transform.",
+      "words": [
+        {"id": "s16-0", "hanzi": "宋定伯", "pinyin": "Sòng Dìngbó"},
+        {"id": "s16-1", "hanzi": "马上", "pinyin": "mǎshàng"},
+        {"id": "s16-2", "hanzi": "往", "pinyin": "wǎng"},
+        {"id": "s16-3", "hanzi": "羊", "pinyin": "yáng"},
+        {"id": "s16-4", "hanzi": "身上", "pinyin": "shēn shàng"},
+        {"id": "s16-5", "hanzi": "吐", "pinyin": "tǔ"},
+        {"id": "s16-6", "hanzi": "口水", "pinyin": "kǒushuǐ"},
+        {"id": "s16-7", "hanzi": "，", "pinyin": ","},
+        {"id": "s16-8", "hanzi": "鬼", "pinyin": "guǐ"},
+        {"id": "s16-9", "hanzi": "就", "pinyin": "jiù"},
+        {"id": "s16-10", "hanzi": "不能", "pinyin": "bù néng"},
+        {"id": "s16-11", "hanzi": "再", "pinyin": "zài"},
+        {"id": "s16-12", "hanzi": "变了", "pinyin": "biàn le"},
+        {"id": "s16-13", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s17",
+      "text": "他把羊卖了一千五百块钱，高高兴兴地回家了。",
+      "pinyin": "Tā bǎ yáng mài le yìqiān wǔbǎi kuài qián, gāogāoxìngxìng de huí jiā le.",
+      "translation": "He sold the sheep for 1,500 coins and went home happily.",
+      "words": [
+        {"id": "s17-0", "hanzi": "他", "pinyin": "tā"},
+        {"id": "s17-1", "hanzi": "把", "pinyin": "bǎ"},
+        {"id": "s17-2", "hanzi": "羊", "pinyin": "yáng"},
+        {"id": "s17-3", "hanzi": "卖了", "pinyin": "mài le"},
+        {"id": "s17-4", "hanzi": "一千五百", "pinyin": "yìqiān wǔbǎi"},
+        {"id": "s17-5", "hanzi": "块钱", "pinyin": "kuài qián"},
+        {"id": "s17-6", "hanzi": "，", "pinyin": ","},
+        {"id": "s17-7", "hanzi": "高高兴兴", "pinyin": "gāogāoxìngxìng"},
+        {"id": "s17-8", "hanzi": "地", "pinyin": "de"},
+        {"id": "s17-9", "hanzi": "回家了", "pinyin": "huí jiā le"},
+        {"id": "s17-10", "hanzi": "。", "pinyin": "."}
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { prisma } from '@/lib/prisma';
+import { SHADOW_ALBUMS } from '@/lib/data';
 
 export async function GET(req: NextRequest) {
   const albumId = req.nextUrl.searchParams.get('albumId');
@@ -9,17 +9,24 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    const lessons = await prisma.lesson.findMany({
-      where: { albumId },
-      select: {
-        id: true,
-        title: true,
-        coverImage: true,
-        language: true,
-        albumId: true,
-      },
-      orderBy: { createdAt: 'asc' },
-    });
+    // Find album from static data
+    const album = SHADOW_ALBUMS.find(a => a.id === albumId);
+    
+    if (!album) {
+      return NextResponse.json({ success: true, lessons: [] });
+    }
+
+    const lessons = album.lessons.map(lesson => ({
+      id: lesson.id,
+      title: lesson.title,
+      titleEn: lesson.titleEn,
+      description: lesson.description,
+      difficulty: lesson.difficulty,
+      sentenceCount: lesson.sentences.length,
+      coverImage: null,
+      language: 'zh',
+      albumId: album.id,
+    }));
 
     return NextResponse.json({ success: true, lessons });
   } catch (error) {

@@ -97,4 +97,32 @@ export const CHINESE_COURSE_GROUPS: ChineseCourseGroup[] = [
       },
     ],
   },
+  {
+    id: 'ancient-stories',
+    title: '古代故事',
+    titleEn: 'Ancient Stories',
+    albums: [
+      {
+        id: 'ancient-soushenji',
+        name: '搜神记',
+        nameEn: 'In Search of the Supernatural',
+        icon: '👻',
+        description: '东晋志怪小说 · 影子跟读',
+      },
+      {
+        id: 'ancient-shishuoxinyu',
+        name: '世说新语',
+        nameEn: 'Tales of the World',
+        icon: '😂',
+        description: '南朝名人轶事 · 影子跟读',
+      },
+      {
+        id: 'ancient-mengxibitan',
+        name: '梦溪笔谈',
+        nameEn: 'Dream Pool Essays',
+        icon: '🔬',
+        description: '北宋科学笔记 · 影子跟读',
+      },
+    ],
+  },
 ];

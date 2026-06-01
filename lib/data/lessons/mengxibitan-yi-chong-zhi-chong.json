@@ -1,0 +1,233 @@
+{
+  "id": "mengxibitan-yi-chong-zhi-chong",
+  "title": "以虫治虫",
+  "titleEn": "Fighting Bugs with Bugs",
+  "description": "A natural pest control miracle from nearly 1000 years ago. From Mengxi Bitan (Dream Pool Essays, 11th century science notes).",
+  "source": "梦溪笔谈",
+  "sourceEn": "Dream Pool Essays",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "差不多一千年前，中国有一个地方叫庆州。",
+      "pinyin": "Chàbuduō yìqiān nián qián, Zhōngguó yǒu yí gè dìfang jiào Qìngzhōu.",
+      "translation": "Nearly one thousand years ago, there was a place in China called Qingzhou.",
+      "words": [
+        {"id": "s01-0", "hanzi": "差不多", "pinyin": "chàbuduō"},
+        {"id": "s01-1", "hanzi": "一千", "pinyin": "yìqiān"},
+        {"id": "s01-2", "hanzi": "年前", "pinyin": "nián qián"},
+        {"id": "s01-3", "hanzi": "，", "pinyin": ","},
+        {"id": "s01-4", "hanzi": "中国", "pinyin": "Zhōngguó"},
+        {"id": "s01-5", "hanzi": "有", "pinyin": "yǒu"},
+        {"id": "s01-6", "hanzi": "一个", "pinyin": "yí gè"},
+        {"id": "s01-7", "hanzi": "地方", "pinyin": "dìfang"},
+        {"id": "s01-8", "hanzi": "叫", "pinyin": "jiào"},
+        {"id": "s01-9", "hanzi": "庆州", "pinyin": "Qìngzhōu"},
+        {"id": "s01-10", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "那一年秋天，庆州的田里突然出现了很多害虫。",
+      "pinyin": "Nà yì nián qiūtiān, Qìngzhōu de tián lǐ tūrán chūxiàn le hěn duō hàichóng.",
+      "translation": "That year in autumn, many pests suddenly appeared in Qingzhou's fields.",
+      "words": [
+        {"id": "s02-0", "hanzi": "那一年", "pinyin": "nà yì nián"},
+        {"id": "s02-1", "hanzi": "秋天", "pinyin": "qiūtiān"},
+        {"id": "s02-2", "hanzi": "，", "pinyin": ","},
+        {"id": "s02-3", "hanzi": "庆州", "pinyin": "Qìngzhōu"},
+        {"id": "s02-4", "hanzi": "的", "pinyin": "de"},
+        {"id": "s02-5", "hanzi": "田里", "pinyin": "tián lǐ"},
+        {"id": "s02-6", "hanzi": "突然", "pinyin": "tūrán"},
+        {"id": "s02-7", "hanzi": "出现了", "pinyin": "chūxiàn le"},
+        {"id": "s02-8", "hanzi": "很多", "pinyin": "hěn duō"},
+        {"id": "s02-9", "hanzi": "害虫", "pinyin": "hàichóng"},
+        {"id": "s02-10", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "害虫专门吃庄稼，越来越多。",
+      "pinyin": "Hàichóng zhuānmén chī zhuāngjia, yuè lái yuè duō.",
+      "translation": "The pests specifically ate the crops, and grew more and more numerous.",
+      "words": [
+        {"id": "s03-0", "hanzi": "害虫", "pinyin": "hàichóng"},
+        {"id": "s03-1", "hanzi": "专门", "pinyin": "zhuānmén"},
+        {"id": "s03-2", "hanzi": "吃", "pinyin": "chī"},
+        {"id": "s03-3", "hanzi": "庄稼", "pinyin": "zhuāngjia"},
+        {"id": "s03-4", "hanzi": "，", "pinyin": ","},
+        {"id": "s03-5", "hanzi": "越来越", "pinyin": "yuè lái yuè"},
+        {"id": "s03-6", "hanzi": "多", "pinyin": "duō"},
+        {"id": "s03-7", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "农民们非常担心。",
+      "pinyin": "Nóngmín men fēicháng dānxīn.",
+      "translation": "The farmers were very worried.",
+      "words": [
+        {"id": "s04-0", "hanzi": "农民们", "pinyin": "nóngmín men"},
+        {"id": "s04-1", "hanzi": "非常", "pinyin": "fēicháng"},
+        {"id": "s04-2", "hanzi": "担心", "pinyin": "dānxīn"},
+        {"id": "s04-3", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "但是没过多久，奇怪的事情发生了。",
+      "pinyin": "Dànshì méi guò duō jiǔ, qíguài de shìqing fāshēng le.",
+      "translation": "But before long, something strange happened.",
+      "words": [
+        {"id": "s05-0", "hanzi": "但是", "pinyin": "dànshì"},
+        {"id": "s05-1", "hanzi": "没过多久", "pinyin": "méi guò duō jiǔ"},
+        {"id": "s05-2", "hanzi": "，", "pinyin": ","},
+        {"id": "s05-3", "hanzi": "奇怪的", "pinyin": "qíguài de"},
+        {"id": "s05-4", "hanzi": "事情", "pinyin": "shìqing"},
+        {"id": "s05-5", "hanzi": "发生了", "pinyin": "fāshēng le"},
+        {"id": "s05-6", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "地上突然出现了另一种虫子。",
+      "pinyin": "Dì shàng tūrán chūxiàn le lìng yì zhǒng chóngzi.",
+      "translation": "Another kind of insect suddenly appeared on the ground.",
+      "words": [
+        {"id": "s06-0", "hanzi": "地上", "pinyin": "dì shàng"},
+        {"id": "s06-1", "hanzi": "突然", "pinyin": "tūrán"},
+        {"id": "s06-2", "hanzi": "出现了", "pinyin": "chūxiàn le"},
+        {"id": "s06-3", "hanzi": "另", "pinyin": "lìng"},
+        {"id": "s06-4", "hanzi": "一种", "pinyin": "yì zhǒng"},
+        {"id": "s06-5", "hanzi": "虫子", "pinyin": "chóngzi"},
+        {"id": "s06-6", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "这种虫子嘴上有两个大钳子。",
+      "pinyin": "Zhè zhǒng chóngzi zuǐ shàng yǒu liǎng gè dà qiánzi.",
+      "translation": "This kind of insect had two big pincers on its mouth.",
+      "words": [
+        {"id": "s07-0", "hanzi": "这种", "pinyin": "zhè zhǒng"},
+        {"id": "s07-1", "hanzi": "虫子", "pinyin": "chóngzi"},
+        {"id": "s07-2", "hanzi": "嘴上", "pinyin": "zuǐ shàng"},
+        {"id": "s07-3", "hanzi": "有", "pinyin": "yǒu"},
+        {"id": "s07-4", "hanzi": "两个", "pinyin": "liǎng gè"},
+        {"id": "s07-5", "hanzi": "大", "pinyin": "dà"},
+        {"id": "s07-6", "hanzi": "钳子", "pinyin": "qiánzi"},
+        {"id": "s07-7", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "成千上万的虫子从地里跑出来。",
+      "pinyin": "Chéng qiān shàng wàn de chóngzi cóng dì lǐ pǎo chūlái.",
+      "translation": "Thousands upon thousands of these insects came running out of the ground.",
+      "words": [
+        {"id": "s08-0", "hanzi": "成千上万", "pinyin": "chéng qiān shàng wàn"},
+        {"id": "s08-1", "hanzi": "的", "pinyin": "de"},
+        {"id": "s08-2", "hanzi": "虫子", "pinyin": "chóngzi"},
+        {"id": "s08-3", "hanzi": "从", "pinyin": "cóng"},
+        {"id": "s08-4", "hanzi": "地里", "pinyin": "dì lǐ"},
+        {"id": "s08-5", "hanzi": "跑出来", "pinyin": "pǎo chūlái"},
+        {"id": "s08-6", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "这些新虫子一看到害虫，就用钳子把害虫咬成两段。",
+      "pinyin": "Zhèxiē xīn chóngzi yí kàn dào hàichóng, jiù yòng qiánzi bǎ hàichóng yǎo chéng liǎng duàn.",
+      "translation": "As soon as these new insects saw the pests, they used their pincers to bite them in half.",
+      "words": [
+        {"id": "s09-0", "hanzi": "这些", "pinyin": "zhèxiē"},
+        {"id": "s09-1", "hanzi": "新", "pinyin": "xīn"},
+        {"id": "s09-2", "hanzi": "虫子", "pinyin": "chóngzi"},
+        {"id": "s09-3", "hanzi": "一", "pinyin": "yí"},
+        {"id": "s09-4", "hanzi": "看到", "pinyin": "kàn dào"},
+        {"id": "s09-5", "hanzi": "害虫", "pinyin": "hàichóng"},
+        {"id": "s09-6", "hanzi": "，", "pinyin": ","},
+        {"id": "s09-7", "hanzi": "就", "pinyin": "jiù"},
+        {"id": "s09-8", "hanzi": "用", "pinyin": "yòng"},
+        {"id": "s09-9", "hanzi": "钳子", "pinyin": "qiánzi"},
+        {"id": "s09-10", "hanzi": "把", "pinyin": "bǎ"},
+        {"id": "s09-11", "hanzi": "害虫", "pinyin": "hàichóng"},
+        {"id": "s09-12", "hanzi": "咬成", "pinyin": "yǎo chéng"},
+        {"id": "s09-13", "hanzi": "两段", "pinyin": "liǎng duàn"},
+        {"id": "s09-14", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "十天以后，所有的害虫都被消灭了。",
+      "pinyin": "Shí tiān yǐhòu, suǒyǒu de hàichóng dōu bèi xiāomiè le.",
+      "translation": "Ten days later, all the pests were eliminated.",
+      "words": [
+        {"id": "s10-0", "hanzi": "十天", "pinyin": "shí tiān"},
+        {"id": "s10-1", "hanzi": "以后", "pinyin": "yǐhòu"},
+        {"id": "s10-2", "hanzi": "，", "pinyin": ","},
+        {"id": "s10-3", "hanzi": "所有的", "pinyin": "suǒyǒu de"},
+        {"id": "s10-4", "hanzi": "害虫", "pinyin": "hàichóng"},
+        {"id": "s10-5", "hanzi": "都", "pinyin": "dōu"},
+        {"id": "s10-6", "hanzi": "被", "pinyin": "bèi"},
+        {"id": "s10-7", "hanzi": "消灭了", "pinyin": "xiāomiè le"},
+        {"id": "s10-8", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s11",
+      "text": "那一年，庄稼大丰收，农民们非常高兴。",
+      "pinyin": "Nà yì nián, zhuāngjia dà fēngshōu, nóngmín men fēicháng gāoxìng.",
+      "translation": "That year, the crops had a great harvest, and the farmers were very happy.",
+      "words": [
+        {"id": "s11-0", "hanzi": "那一年", "pinyin": "nà yì nián"},
+        {"id": "s11-1", "hanzi": "，", "pinyin": ","},
+        {"id": "s11-2", "hanzi": "庄稼", "pinyin": "zhuāngjia"},
+        {"id": "s11-3", "hanzi": "大", "pinyin": "dà"},
+        {"id": "s11-4", "hanzi": "丰收", "pinyin": "fēngshōu"},
+        {"id": "s11-5", "hanzi": "，", "pinyin": ","},
+        {"id": "s11-6", "hanzi": "农民们", "pinyin": "nóngmín men"},
+        {"id": "s11-7", "hanzi": "非常", "pinyin": "fēicháng"},
+        {"id": "s11-8", "hanzi": "高兴", "pinyin": "gāoxìng"},
+        {"id": "s11-9", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s12",
+      "text": "当地人给这种虫子起了一个名字，叫傍不肯。",
+      "pinyin": "Dāngdì rén gěi zhè zhǒng chóngzi qǐ le yí gè míngzi, jiào Bàng Bù Kěn.",
+      "translation": "The local people gave this insect a name: 'Won't Tolerate Neighbors'.",
+      "words": [
+        {"id": "s12-0", "hanzi": "当地人", "pinyin": "dāngdì rén"},
+        {"id": "s12-1", "hanzi": "给", "pinyin": "gěi"},
+        {"id": "s12-2", "hanzi": "这种", "pinyin": "zhè zhǒng"},
+        {"id": "s12-3", "hanzi": "虫子", "pinyin": "chóngzi"},
+        {"id": "s12-4", "hanzi": "起了", "pinyin": "qǐ le"},
+        {"id": "s12-5", "hanzi": "一个", "pinyin": "yí gè"},
+        {"id": "s12-6", "hanzi": "名字", "pinyin": "míngzi"},
+        {"id": "s12-7", "hanzi": "，", "pinyin": ","},
+        {"id": "s12-8", "hanzi": "叫", "pinyin": "jiào"},
+        {"id": "s12-9", "hanzi": "傍不肯", "pinyin": "Bàng Bù Kěn"},
+        {"id": "s12-10", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s13",
+      "text": "意思是：它不让旁边的害虫活着。",
+      "pinyin": "Yìsi shì: tā bú ràng pángbiān de hàichóng huó zhe.",
+      "translation": "It means: it won't let any pest beside it stay alive.",
+      "words": [
+        {"id": "s13-0", "hanzi": "意思", "pinyin": "yìsi"},
+        {"id": "s13-1", "hanzi": "是", "pinyin": "shì"},
+        {"id": "s13-2", "hanzi": "：", "pinyin": ":"},
+        {"id": "s13-3", "hanzi": "它", "pinyin": "tā"},
+        {"id": "s13-4", "hanzi": "不让", "pinyin": "bú ràng"},
+        {"id": "s13-5", "hanzi": "旁边", "pinyin": "pángbiān"},
+        {"id": "s13-6", "hanzi": "的", "pinyin": "de"},
+        {"id": "s13-7", "hanzi": "害虫", "pinyin": "hàichóng"},
+        {"id": "s13-8", "hanzi": "活着", "pinyin": "huó zhe"},
+        {"id": "s13-9", "hanzi": "。", "pinyin": "."}
+      ]
+    }
+  ]
+}

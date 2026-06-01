@@ -1,24 +1,27 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { prisma } from '@/lib/prisma';
+import { getLessonById } from '@/lib/data';
 
-export async function GET(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+export async function GET(
+  req: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
   const { id } = await params;
 
   try {
-    const lesson = await prisma.lesson.findUnique({
-      where: { id },
-    });
-
-    if (!lesson) {
+    const result = getLessonById(id);
+    
+    if (!result) {
       return NextResponse.json({ success: false, error: 'Lesson not found' }, { status: 404 });
     }
 
-    return NextResponse.json({
-      success: true,
-      lesson: {
-        ...lesson,
-        content: JSON.parse(lesson.content),
-      },
+    return NextResponse.json({ 
+      success: true, 
+      lesson: result.lesson,
+      album: {
+        id: result.album.id,
+        name: result.album.name,
+        nameEn: result.album.nameEn,
+      }
     });
   } catch (error) {
     console.error('Failed to fetch lesson:', error);

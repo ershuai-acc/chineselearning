@@ -1,0 +1,224 @@
+{
+  "id": "shishuoxinyu-wang-lantian",
+  "title": "王蓝田吃鸡蛋",
+  "titleEn": "Wang Lantian Eats an Egg",
+  "description": "A hot-tempered man hilariously battles with an egg he can't pick up. From Shishuo Xinyu (5th century anecdotes of famous figures).",
+  "source": "世说新语",
+  "sourceEn": "A New Account of the Tales of the World",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "古时候，有一个人叫王蓝田。",
+      "pinyin": "Gǔ shíhou, yǒu yí gè rén jiào Wáng Lántián.",
+      "translation": "In ancient times, there was a man named Wang Lantian.",
+      "words": [
+        {"id": "s01-0", "hanzi": "古时候", "pinyin": "gǔ shíhou"},
+        {"id": "s01-1", "hanzi": "，", "pinyin": ","},
+        {"id": "s01-2", "hanzi": "有", "pinyin": "yǒu"},
+        {"id": "s01-3", "hanzi": "一个", "pinyin": "yí gè"},
+        {"id": "s01-4", "hanzi": "人", "pinyin": "rén"},
+        {"id": "s01-5", "hanzi": "叫", "pinyin": "jiào"},
+        {"id": "s01-6", "hanzi": "王蓝田", "pinyin": "Wáng Lántián"},
+        {"id": "s01-7", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "他的脾气非常急，做什么事都不能等。",
+      "pinyin": "Tā de píqi fēicháng jí, zuò shénme shì dōu bù néng děng.",
+      "translation": "He had a very impatient temper and couldn't wait for anything.",
+      "words": [
+        {"id": "s02-0", "hanzi": "他的", "pinyin": "tā de"},
+        {"id": "s02-1", "hanzi": "脾气", "pinyin": "píqi"},
+        {"id": "s02-2", "hanzi": "非常", "pinyin": "fēicháng"},
+        {"id": "s02-3", "hanzi": "急", "pinyin": "jí"},
+        {"id": "s02-4", "hanzi": "，", "pinyin": ","},
+        {"id": "s02-5", "hanzi": "做", "pinyin": "zuò"},
+        {"id": "s02-6", "hanzi": "什么", "pinyin": "shénme"},
+        {"id": "s02-7", "hanzi": "事", "pinyin": "shì"},
+        {"id": "s02-8", "hanzi": "都", "pinyin": "dōu"},
+        {"id": "s02-9", "hanzi": "不能", "pinyin": "bù néng"},
+        {"id": "s02-10", "hanzi": "等", "pinyin": "děng"},
+        {"id": "s02-11", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "有一天吃饭的时候，他想吃一个鸡蛋。",
+      "pinyin": "Yǒu yì tiān chīfàn de shíhou, tā xiǎng chī yí gè jīdàn.",
+      "translation": "One day during a meal, he wanted to eat an egg.",
+      "words": [
+        {"id": "s03-0", "hanzi": "有一天", "pinyin": "yǒu yì tiān"},
+        {"id": "s03-1", "hanzi": "吃饭", "pinyin": "chīfàn"},
+        {"id": "s03-2", "hanzi": "的时候", "pinyin": "de shíhou"},
+        {"id": "s03-3", "hanzi": "，", "pinyin": ","},
+        {"id": "s03-4", "hanzi": "他", "pinyin": "tā"},
+        {"id": "s03-5", "hanzi": "想", "pinyin": "xiǎng"},
+        {"id": "s03-6", "hanzi": "吃", "pinyin": "chī"},
+        {"id": "s03-7", "hanzi": "一个", "pinyin": "yí gè"},
+        {"id": "s03-8", "hanzi": "鸡蛋", "pinyin": "jīdàn"},
+        {"id": "s03-9", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "他用筷子去夹鸡蛋，但是鸡蛋太滑了，夹不起来。",
+      "pinyin": "Tā yòng kuàizi qù jiā jīdàn, dànshì jīdàn tài huá le, jiā bù qǐlái.",
+      "translation": "He tried to pick up the egg with chopsticks, but it was too slippery to grab.",
+      "words": [
+        {"id": "s04-0", "hanzi": "他", "pinyin": "tā"},
+        {"id": "s04-1", "hanzi": "用", "pinyin": "yòng"},
+        {"id": "s04-2", "hanzi": "筷子", "pinyin": "kuàizi"},
+        {"id": "s04-3", "hanzi": "去", "pinyin": "qù"},
+        {"id": "s04-4", "hanzi": "夹", "pinyin": "jiā"},
+        {"id": "s04-5", "hanzi": "鸡蛋", "pinyin": "jīdàn"},
+        {"id": "s04-6", "hanzi": "，", "pinyin": ","},
+        {"id": "s04-7", "hanzi": "但是", "pinyin": "dànshì"},
+        {"id": "s04-8", "hanzi": "鸡蛋", "pinyin": "jīdàn"},
+        {"id": "s04-9", "hanzi": "太", "pinyin": "tài"},
+        {"id": "s04-10", "hanzi": "滑了", "pinyin": "huá le"},
+        {"id": "s04-11", "hanzi": "，", "pinyin": ","},
+        {"id": "s04-12", "hanzi": "夹不起来", "pinyin": "jiā bù qǐlái"},
+        {"id": "s04-13", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "王蓝田很生气，他拿起鸡蛋，用力扔到地上。",
+      "pinyin": "Wáng Lántián hěn shēngqì, tā ná qǐ jīdàn, yònglì rēng dào dì shàng.",
+      "translation": "Wang Lantian was very angry. He picked up the egg and threw it hard on the ground.",
+      "words": [
+        {"id": "s05-0", "hanzi": "王蓝田", "pinyin": "Wáng Lántián"},
+        {"id": "s05-1", "hanzi": "很", "pinyin": "hěn"},
+        {"id": "s05-2", "hanzi": "生气", "pinyin": "shēngqì"},
+        {"id": "s05-3", "hanzi": "，", "pinyin": ","},
+        {"id": "s05-4", "hanzi": "他", "pinyin": "tā"},
+        {"id": "s05-5", "hanzi": "拿起", "pinyin": "ná qǐ"},
+        {"id": "s05-6", "hanzi": "鸡蛋", "pinyin": "jīdàn"},
+        {"id": "s05-7", "hanzi": "，", "pinyin": ","},
+        {"id": "s05-8", "hanzi": "用力", "pinyin": "yònglì"},
+        {"id": "s05-9", "hanzi": "扔到", "pinyin": "rēng dào"},
+        {"id": "s05-10", "hanzi": "地上", "pinyin": "dì shàng"},
+        {"id": "s05-11", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "但是鸡蛋没有碎！鸡蛋在地上滚来滚去。",
+      "pinyin": "Dànshì jīdàn méiyǒu suì! Jīdàn zài dì shàng gǔn lái gǔn qù.",
+      "translation": "But the egg didn't break! It rolled around on the ground.",
+      "words": [
+        {"id": "s06-0", "hanzi": "但是", "pinyin": "dànshì"},
+        {"id": "s06-1", "hanzi": "鸡蛋", "pinyin": "jīdàn"},
+        {"id": "s06-2", "hanzi": "没有", "pinyin": "méiyǒu"},
+        {"id": "s06-3", "hanzi": "碎", "pinyin": "suì"},
+        {"id": "s06-4", "hanzi": "！", "pinyin": "!"},
+        {"id": "s06-5", "hanzi": "鸡蛋", "pinyin": "jīdàn"},
+        {"id": "s06-6", "hanzi": "在", "pinyin": "zài"},
+        {"id": "s06-7", "hanzi": "地上", "pinyin": "dì shàng"},
+        {"id": "s06-8", "hanzi": "滚来滚去", "pinyin": "gǔn lái gǔn qù"},
+        {"id": "s06-9", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "他更生气了，站起来用脚踩鸡蛋。",
+      "pinyin": "Tā gèng shēngqì le, zhàn qǐlái yòng jiǎo cǎi jīdàn.",
+      "translation": "He got even angrier, stood up and tried to step on the egg.",
+      "words": [
+        {"id": "s07-0", "hanzi": "他", "pinyin": "tā"},
+        {"id": "s07-1", "hanzi": "更", "pinyin": "gèng"},
+        {"id": "s07-2", "hanzi": "生气了", "pinyin": "shēngqì le"},
+        {"id": "s07-3", "hanzi": "，", "pinyin": ","},
+        {"id": "s07-4", "hanzi": "站起来", "pinyin": "zhàn qǐlái"},
+        {"id": "s07-5", "hanzi": "用", "pinyin": "yòng"},
+        {"id": "s07-6", "hanzi": "脚", "pinyin": "jiǎo"},
+        {"id": "s07-7", "hanzi": "踩", "pinyin": "cǎi"},
+        {"id": "s07-8", "hanzi": "鸡蛋", "pinyin": "jīdàn"},
+        {"id": "s07-9", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "但是鸡蛋又小又滑，踩不到。",
+      "pinyin": "Dànshì jīdàn yòu xiǎo yòu huá, cǎi bú dào.",
+      "translation": "But the egg was small and slippery — he couldn't step on it.",
+      "words": [
+        {"id": "s08-0", "hanzi": "但是", "pinyin": "dànshì"},
+        {"id": "s08-1", "hanzi": "鸡蛋", "pinyin": "jīdàn"},
+        {"id": "s08-2", "hanzi": "又", "pinyin": "yòu"},
+        {"id": "s08-3", "hanzi": "小", "pinyin": "xiǎo"},
+        {"id": "s08-4", "hanzi": "又", "pinyin": "yòu"},
+        {"id": "s08-5", "hanzi": "滑", "pinyin": "huá"},
+        {"id": "s08-6", "hanzi": "，", "pinyin": ","},
+        {"id": "s08-7", "hanzi": "踩不到", "pinyin": "cǎi bú dào"},
+        {"id": "s08-8", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "王蓝田气坏了！",
+      "pinyin": "Wáng Lántián qì huài le!",
+      "translation": "Wang Lantian was furious!",
+      "words": [
+        {"id": "s09-0", "hanzi": "王蓝田", "pinyin": "Wáng Lántián"},
+        {"id": "s09-1", "hanzi": "气坏了", "pinyin": "qì huài le"},
+        {"id": "s09-2", "hanzi": "！", "pinyin": "!"}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "他从地上把鸡蛋捡起来，放到嘴里。",
+      "pinyin": "Tā cóng dì shàng bǎ jīdàn jiǎn qǐlái, fàng dào zuǐ lǐ.",
+      "translation": "He picked up the egg from the ground and put it in his mouth.",
+      "words": [
+        {"id": "s10-0", "hanzi": "他", "pinyin": "tā"},
+        {"id": "s10-1", "hanzi": "从", "pinyin": "cóng"},
+        {"id": "s10-2", "hanzi": "地上", "pinyin": "dì shàng"},
+        {"id": "s10-3", "hanzi": "把", "pinyin": "bǎ"},
+        {"id": "s10-4", "hanzi": "鸡蛋", "pinyin": "jīdàn"},
+        {"id": "s10-5", "hanzi": "捡起来", "pinyin": "jiǎn qǐlái"},
+        {"id": "s10-6", "hanzi": "，", "pinyin": ","},
+        {"id": "s10-7", "hanzi": "放到", "pinyin": "fàng dào"},
+        {"id": "s10-8", "hanzi": "嘴里", "pinyin": "zuǐ lǐ"},
+        {"id": "s10-9", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s11",
+      "text": "他用牙齿把鸡蛋咬碎了，然后吐出来。",
+      "pinyin": "Tā yòng yáchǐ bǎ jīdàn yǎo suì le, ránhòu tǔ chūlái.",
+      "translation": "He bit the egg to pieces with his teeth, then spat it out.",
+      "words": [
+        {"id": "s11-0", "hanzi": "他", "pinyin": "tā"},
+        {"id": "s11-1", "hanzi": "用", "pinyin": "yòng"},
+        {"id": "s11-2", "hanzi": "牙齿", "pinyin": "yáchǐ"},
+        {"id": "s11-3", "hanzi": "把", "pinyin": "bǎ"},
+        {"id": "s11-4", "hanzi": "鸡蛋", "pinyin": "jīdàn"},
+        {"id": "s11-5", "hanzi": "咬碎了", "pinyin": "yǎo suì le"},
+        {"id": "s11-6", "hanzi": "，", "pinyin": ","},
+        {"id": "s11-7", "hanzi": "然后", "pinyin": "ránhòu"},
+        {"id": "s11-8", "hanzi": "吐出来", "pinyin": "tǔ chūlái"},
+        {"id": "s11-9", "hanzi": "。", "pinyin": "."}
+      ]
+    },
+    {
+      "id": "s12",
+      "text": "大书法家王羲之听说了这件事，笑了很久。",
+      "pinyin": "Dà shūfǎjiā Wáng Xīzhī tīngshuō le zhè jiàn shì, xiào le hěn jiǔ.",
+      "translation": "The great calligrapher Wang Xizhi heard about this and laughed for a long time.",
+      "words": [
+        {"id": "s12-0", "hanzi": "大", "pinyin": "dà"},
+        {"id": "s12-1", "hanzi": "书法家", "pinyin": "shūfǎjiā"},
+        {"id": "s12-2", "hanzi": "王羲之", "pinyin": "Wáng Xīzhī"},
+        {"id": "s12-3", "hanzi": "听说了", "pinyin": "tīngshuō le"},
+        {"id": "s12-4", "hanzi": "这件事", "pinyin": "zhè jiàn shì"},
+        {"id": "s12-5", "hanzi": "，", "pinyin": ","},
+        {"id": "s12-6", "hanzi": "笑了", "pinyin": "xiào le"},
+        {"id": "s12-7", "hanzi": "很久", "pinyin": "hěn jiǔ"},
+        {"id": "s12-8", "hanzi": "。", "pinyin": "."}
+      ]
+    }
+  ]
+}

@@ -8,6 +8,10 @@ import Link from 'next/link';
 interface Lesson {
   id: string;
   title: string;
+  titleEn?: string;
+  description?: string;
+  difficulty?: string;
+  sentenceCount?: number;
   coverImage?: string | null;
   language: string;
   albumId: string | null;
@@ -82,6 +86,7 @@ export default function AlbumDetailPage() {
   }
 
   const isPinyin = albumId.startsWith('pinyin-');
+  const isAncient = albumId.startsWith('ancient-');
 
   return (
     <div className="min-h-[100dvh] bg-duo-snow pb-24">
@@ -104,22 +109,67 @@ export default function AlbumDetailPage() {
         </div>
 
         {lessons.length > 0 ? (
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-3 md:gap-4">
-            {lessons.map((lesson) => {
-              // Extract short label from lesson title (e.g. "声母 b" -> "b")
-              const label = lesson.title.split(' ').pop() || lesson.title;
-              return (
+          isAncient ? (
+            /* Ancient stories: show as cards with description */
+            <div className="space-y-4">
+              {lessons.map((lesson) => (
                 <Link
                   key={lesson.id}
-                  href={isPinyin ? `/lesson/pinyin/${lesson.id}` : `/lesson/${lesson.id}`}
-                  className="flex flex-col items-center bg-white border-2 border-b-4 border-duo-swan rounded-2xl p-4 hover:border-duo-macaw hover:-translate-y-1 active:translate-y-0.5 active:border-b-2 transition-all"
+                  href={`/lesson/${lesson.id}`}
+                  className="block bg-white border-2 border-b-4 border-duo-swan rounded-2xl p-5 hover:border-duo-macaw hover:-translate-y-0.5 active:translate-y-0.5 active:border-b-2 transition-all"
                 >
-                  <span className="text-2xl font-extrabold text-duo-eel mb-1">{label}</span>
-                  <span className="text-xs text-duo-hare font-bold">{lesson.title}</span>
+                  <div className="flex items-start justify-between">
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="text-xs font-bold text-duo-macaw bg-duo-macaw/10 px-2 py-0.5 rounded-full">
+                          ZH | 影子跟读
+                        </span>
+                        {lesson.difficulty && (
+                          <span className="text-xs font-bold text-duo-fox bg-duo-fox/10 px-2 py-0.5 rounded-full">
+                            {lesson.difficulty}
+                          </span>
+                        )}
+                      </div>
+                      <h3 className="text-lg font-extrabold text-duo-eel">{lesson.title}</h3>
+                      {lesson.titleEn && (
+                        <p className="text-sm text-duo-wolf font-bold">{lesson.titleEn}</p>
+                      )}
+                      {lesson.description && (
+                        <p className="text-xs text-duo-hare mt-1 line-clamp-2">{lesson.description}</p>
+                      )}
+                    </div>
+                    {lesson.sentenceCount && (
+                      <span className="text-xs text-duo-hare font-bold whitespace-nowrap ml-3">
+                        {lesson.sentenceCount} sentences
+                      </span>
+                    )}
+                  </div>
+                  <div className="mt-3">
+                    <div className="w-full h-2 bg-duo-polar rounded-full overflow-hidden">
+                      <div className="h-full bg-duo-green rounded-full" style={{ width: '0%' }} />
+                    </div>
+                    <p className="text-xs text-duo-hare mt-1">0% completed</p>
+                  </div>
                 </Link>
-              );
-            })}
-          </div>
+              ))}
+            </div>
+          ) : (
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-3 md:gap-4">
+              {lessons.map((lesson) => {
+                const label = lesson.title.split(' ').pop() || lesson.title;
+                return (
+                  <Link
+                    key={lesson.id}
+                    href={isPinyin ? `/lesson/pinyin/${lesson.id}` : `/lesson/${lesson.id}`}
+                    className="flex flex-col items-center bg-white border-2 border-b-4 border-duo-swan rounded-2xl p-4 hover:border-duo-macaw hover:-translate-y-1 active:translate-y-0.5 active:border-b-2 transition-all"
+                  >
+                    <span className="text-2xl font-extrabold text-duo-eel mb-1">{label}</span>
+                    <span className="text-xs text-duo-hare font-bold">{lesson.title}</span>
+                  </Link>
+                );
+              })}
+            </div>
+          )
         ) : (
           /* No lessons placeholder */
           <div className="flex flex-col items-center justify-center py-20 text-center">

@@ -1,33 +1,22 @@
 import { NextResponse } from 'next/server';
-import { prisma } from '@/lib/prisma';
+import { CHINESE_COURSE_GROUPS } from '@/lib/config/chineseCourses';
 
 export async function GET() {
   try {
-    const albums = await prisma.album.findMany({
-      orderBy: { sortOrder: 'asc' },
-    });
-
-    // Group albums by category (based on id prefix)
-    const groups = [
-      {
-        id: 'pinyin',
-        title: '拼音',
-        titleEn: 'Pinyin',
-        albums: albums.filter(a => a.id.startsWith('pinyin-')),
-      },
-      {
-        id: 'mandarin-basics',
-        title: '普通话入门',
-        titleEn: 'Mandarin Basics',
-        albums: albums.filter(a => a.id.startsWith('basics-')),
-      },
-      {
-        id: 'chinese-culture',
-        title: '汉语文化',
-        titleEn: 'Chinese Culture',
-        albums: albums.filter(a => a.id.startsWith('culture-')),
-      },
-    ].filter(g => g.albums.length > 0);
+    // Use static config directly (no database dependency)
+    const groups = CHINESE_COURSE_GROUPS.map(group => ({
+      id: group.id,
+      title: group.title,
+      titleEn: group.titleEn,
+      albums: group.albums.map(album => ({
+        id: album.id,
+        name: album.name,
+        nameEn: album.nameEn,
+        icon: album.icon,
+        description: album.description || null,
+        coverImage: null,
+      })),
+    })).filter(g => g.albums.length > 0);
 
     return NextResponse.json({ success: true, groups });
   } catch (error) {
