@@ -3,8 +3,9 @@
 import { useState, useMemo, useEffect } from 'react';
 import { SkipForward } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { WordTooltip } from '../WordTooltip';
 
-interface Word { id: string; hanzi: string; pinyin: string; }
+interface Word { id: string; hanzi: string; pinyin: string; meaning?: string; }
 interface Sentence { id: string; text: string; pinyin: string; translation: string; words: Word[]; }
 
 interface Props {
@@ -121,15 +122,16 @@ export function FillBlank({ sentence, allSentences, onComplete, onSkip }: Props)
           }
 
           return (
-            <button
-              key={word.id}
-              onClick={() => { playWord(word.hanzi); handleSelect(word); }}
-              disabled={feedback !== null}
-              className={`flex flex-col items-center p-3 rounded-xl border-2 border-b-4 font-bold transition-all active:border-b-2 ${borderClass}`}
-            >
-              <span className="text-[11px] text-duo-macaw mb-0.5">{word.pinyin}</span>
-              <span className="text-xl">{word.hanzi}</span>
-            </button>
+            <WordTooltip key={word.id} hanzi={word.hanzi} pinyin={word.pinyin} meaning={word.meaning}>
+              <button
+                onClick={(e) => { e.stopPropagation(); playWord(word.hanzi); handleSelect(word); }}
+                disabled={feedback !== null}
+                className={`flex flex-col items-center p-3 rounded-xl border-2 border-b-4 font-bold transition-all active:border-b-2 w-full ${borderClass}`}
+              >
+                <span className="text-[11px] text-duo-macaw mb-0.5">{word.pinyin}</span>
+                <span className="text-xl">{word.hanzi}</span>
+              </button>
+            </WordTooltip>
           );
         })}
       </div>
@@ -138,6 +140,13 @@ export function FillBlank({ sentence, allSentences, onComplete, onSkip }: Props)
       {feedback === 'wrong' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-duo-cardinal/10 border-2 border-duo-cardinal rounded-xl p-3 text-center mb-4">
           <p className="text-sm text-duo-cardinal font-bold">Correct answer: <span className="text-duo-eel">{blankTarget.hanzi}</span> ({blankTarget.pinyin})</p>
+          {blankTarget.meaning && <p className="text-xs text-duo-wolf mt-1">{blankTarget.meaning}</p>}
+        </motion.div>
+      )}
+      {feedback === 'correct' && (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-duo-green/10 border-2 border-duo-green rounded-xl p-3 text-center mb-4">
+          <p className="font-extrabold text-duo-green-dark">✓ Correct! — {blankTarget.hanzi}</p>
+          {blankTarget.meaning && <p className="text-xs text-duo-wolf mt-1">{blankTarget.meaning}</p>}
         </motion.div>
       )}
 

@@ -3,8 +3,9 @@
 import { useState, useMemo, useEffect } from 'react';
 import { SkipForward } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { WordTooltip } from '../WordTooltip';
 
-interface Word { id: string; hanzi: string; pinyin: string; }
+interface Word { id: string; hanzi: string; pinyin: string; meaning?: string; }
 interface Sentence { id: string; text: string; pinyin: string; translation: string; words: Word[]; }
 
 interface Props {
@@ -108,19 +109,22 @@ export function TranslateSentence({ sentence, allSentences, onComplete, onSkip }
       {/* Options pool */}
       <div className="flex flex-wrap gap-2 justify-center mb-4">
         {options.map(word => (
-          <button
-            key={word.id}
-            onClick={() => { handleOptionClick(word); playWord(word.hanzi); }}
-            disabled={isOptionUsed(word) || feedback !== null}
-            className={`px-3 py-2 rounded-lg border-2 border-b-4 font-bold text-sm transition-all ${
-              isOptionUsed(word)
-                ? 'border-transparent bg-duo-polar text-duo-polar'
-                : 'border-duo-swan bg-white text-duo-eel hover:border-duo-macaw active:border-b-2'
-            }`}
-          >
-            <span className="text-[10px] text-duo-macaw block">{word.pinyin}</span>
-            {word.hanzi}
-          </button>
+          <div key={word.id} className="relative">
+            <WordTooltip hanzi={word.hanzi} pinyin={word.pinyin} meaning={word.meaning}>
+              <button
+                onClick={(e) => { e.stopPropagation(); handleOptionClick(word); playWord(word.hanzi); }}
+                disabled={isOptionUsed(word) || feedback !== null}
+                className={`px-3 py-2 rounded-lg border-2 border-b-4 font-bold text-sm transition-all ${
+                  isOptionUsed(word)
+                    ? 'border-transparent bg-duo-polar text-duo-polar'
+                    : 'border-duo-swan bg-white text-duo-eel hover:border-duo-macaw active:border-b-2'
+                }`}
+              >
+                <span className="text-[10px] text-duo-macaw block">{word.pinyin}</span>
+                {word.hanzi}
+              </button>
+            </WordTooltip>
+          </div>
         ))}
       </div>
 

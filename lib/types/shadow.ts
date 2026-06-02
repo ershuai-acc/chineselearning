@@ -8,6 +8,7 @@ export interface ShadowWord {
   id: string;
   hanzi: string;       // Chinese characters (e.g. "很久")
   pinyin: string;      // Pinyin with tone marks (e.g. "hěn jiǔ")
+  meaning?: string;    // English meaning (e.g. "long ago")
 }
 
 /** A sentence in the shadow reading lesson */

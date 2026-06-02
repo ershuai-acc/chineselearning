@@ -3,8 +3,9 @@
 import { useState, useMemo, useEffect } from 'react';
 import { Volume2, SkipForward } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { WordTooltip } from '../WordTooltip';
 
-interface Word { id: string; hanzi: string; pinyin: string; }
+interface Word { id: string; hanzi: string; pinyin: string; meaning?: string; }
 interface Sentence { id: string; text: string; pinyin: string; translation: string; words: Word[]; }
 
 interface Props {
@@ -119,6 +120,9 @@ export function ListenChoose({ sentence, allSentences, onComplete, onSkip }: Pro
             >
               <span className="text-xl mb-1">{word.hanzi}</span>
               <span className="text-[11px] text-duo-macaw">{word.pinyin}</span>
+              {feedback && word.meaning && (
+                <span className="text-[10px] text-duo-wolf mt-1">{word.meaning}</span>
+              )}
             </button>
           );
         })}
@@ -128,11 +132,13 @@ export function ListenChoose({ sentence, allSentences, onComplete, onSkip }: Pro
       {feedback === 'correct' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-duo-green/10 border-2 border-duo-green rounded-xl p-3 text-center mb-4">
           <p className="font-extrabold text-duo-green-dark">✓ Correct! — {target.hanzi} ({target.pinyin})</p>
+          {target.meaning && <p className="text-sm text-duo-wolf mt-1">{target.meaning}</p>}
         </motion.div>
       )}
       {feedback === 'wrong' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-duo-cardinal/10 border-2 border-duo-cardinal rounded-xl p-3 text-center mb-4">
           <p className="font-bold text-duo-cardinal">✗ The answer is: <span className="text-duo-eel">{target.hanzi}</span> ({target.pinyin})</p>
+          {target.meaning && <p className="text-sm text-duo-wolf mt-1">{target.meaning}</p>}
         </motion.div>
       )}
 

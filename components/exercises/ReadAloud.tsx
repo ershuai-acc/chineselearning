@@ -3,8 +3,9 @@
 import { useState, useRef } from 'react';
 import { Volume2, Mic, MicOff, SkipForward, Check } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { WordTooltip } from '../WordTooltip';
 
-interface Word { id: string; hanzi: string; pinyin: string; }
+interface Word { id: string; hanzi: string; pinyin: string; meaning?: string; }
 interface Sentence { id: string; text: string; pinyin: string; translation: string; words: Word[]; }
 
 interface Props {
@@ -57,10 +58,12 @@ export function ReadAloud({ sentence, onComplete, onSkip }: Props) {
       <div className="bg-white rounded-2xl border-2 border-b-4 border-duo-swan p-6 mb-4">
         <div className="flex flex-wrap justify-center gap-x-2 gap-y-4">
           {displayWords.map(word => (
-            <div key={word.id} className="flex flex-col items-center">
-              <span className="text-[11px] text-duo-macaw font-medium mb-0.5">{word.pinyin}</span>
-              <span className="text-2xl font-bold text-duo-eel">{word.hanzi}</span>
-            </div>
+            <WordTooltip key={word.id} hanzi={word.hanzi} pinyin={word.pinyin} meaning={word.meaning}>
+              <div className="flex flex-col items-center">
+                <span className="text-[11px] text-duo-macaw font-medium mb-0.5">{word.pinyin}</span>
+                <span className="text-2xl font-bold text-duo-eel">{word.hanzi}</span>
+              </div>
+            </WordTooltip>
           ))}
         </div>
       </div>
