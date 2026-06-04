@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { useParams, useRouter } from 'next/navigation';
-import { X, SkipForward } from 'lucide-react';
+import { X, SkipForward, Volume2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ReadAloud } from '@/components/exercises/ReadAloud';
 import { TranslateSentence } from '@/components/exercises/TranslateSentence';
@@ -96,6 +96,14 @@ export default function ShadowLessonPage() {
   const currentSentence = lesson?.sentences[currentSentenceIdx];
   const currentMode = MODES[currentModeIdx];
 
+  const playCurrentSentence = useCallback(() => {
+    if (!currentSentence || typeof window === 'undefined') return;
+    const u = new SpeechSynthesisUtterance(currentSentence.text);
+    u.lang = 'zh-CN';
+    u.rate = 0.8;
+    speechSynthesis.speak(u);
+  }, [currentSentence]);
+
   if (isLoading) {
     return (
       <div className="flex items-center justify-center min-h-[100dvh] bg-duo-snow">
@@ -145,10 +153,17 @@ export default function ShadowLessonPage() {
             transition={{ duration: 0.25 }}
             className="w-full max-w-lg flex-1 flex flex-col"
           >
-            {/* Mode title */}
+            {/* Mode title + sentence audio */}
             <div className="text-center mb-4">
               <span className="text-xl">{currentMode.icon}</span>
               <h2 className="text-base font-extrabold text-duo-eel">{currentMode.title}</h2>
+              <button
+                onClick={playCurrentSentence}
+                className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-duo-macaw/10 text-duo-macaw text-sm font-bold hover:bg-duo-macaw/20 active:scale-95 transition-all"
+              >
+                <Volume2 className="w-4 h-4" />
+                Play sentence
+              </button>
             </div>
 
             {/* Mode dots */}

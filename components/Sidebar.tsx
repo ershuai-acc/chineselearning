@@ -23,9 +23,9 @@ export function Sidebar() {
     <>
       {/* Desktop Sidebar */}
       <aside className="hidden md:flex fixed left-0 top-0 h-[100dvh] w-64 border-r-2 border-duo-swan bg-white flex-col items-center py-6 z-40">
-        <div className="w-full px-6 mb-8 pl-8">
-          <h1 className="text-2xl font-extrabold text-duo-green tracking-tight">学中文</h1>
-          <p className="text-sm text-duo-hare font-bold">Learn Chinese</p>
+        <div className="w-full px-6 mb-8 pl-8 flex items-center gap-2">
+          <img src="/icon.png" alt="PandaMandarin" className="w-8 h-8 rounded-lg" />
+          <h1 className="text-xl font-extrabold text-duo-green tracking-tight">PandaMandarin</h1>
         </div>
 
         <nav className="flex-1 w-full flex flex-col gap-2 px-4">

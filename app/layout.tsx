@@ -10,8 +10,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "学中文 - Pinyin Learner",
-  description: "Learn Chinese pronunciation step by step",
+  title: "PandaMandarin",
+  description: "Learn Mandarin Chinese the fun way",
   icons: {
     icon: "/icon.png",
     shortcut: "/favicon.ico",

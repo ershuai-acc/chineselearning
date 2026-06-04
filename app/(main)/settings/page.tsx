@@ -47,7 +47,7 @@ export default function SettingsPage() {
             </div>
             <div className="flex justify-between items-center py-2">
               <span className="text-sm text-duo-hare">项目</span>
-              <span className="text-sm text-duo-eel font-bold">学中文 Pinyin Learner</span>
+              <span className="text-sm text-duo-eel font-bold">PandaMandarin</span>
             </div>
           </div>
         </div>
