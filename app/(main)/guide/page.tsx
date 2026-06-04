@@ -123,7 +123,9 @@ export default function GuidePage() {
         {/* Part 3: Discord Join */}
         <section className="text-center py-4">
           <a
-            href="#"
+            href="https://discord.gg/45wJeVy7J"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-[#5865F2] text-white font-bold text-lg rounded-2xl hover:bg-[#4752C4] active:scale-95 transition-all shadow-lg"
           >
             💬 Join our Discord
