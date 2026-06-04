@@ -28,8 +28,8 @@ export function CourseGrid() {
       .then(res => res.json())
       .then(data => {
         if (data.success && data.groups) {
-          // Filter out pinyin group (it has its own tab)
-          setGroups(data.groups.filter((g: CourseGroup) => g.id !== 'pinyin'));
+          // Filter out pinyin group (it has its own tab) and chinese-culture (hidden)
+          setGroups(data.groups.filter((g: CourseGroup) => g.id !== 'pinyin' && g.id !== 'chinese-culture'));
         }
       })
       .catch(console.error)
