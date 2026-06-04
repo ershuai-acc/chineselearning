@@ -19,6 +19,7 @@ const blessingBirthday = require('./lessons/blessing-birthday.json');
 const loveFlirting = require('./lessons/love-flirting.json');
 const loveSweetTalk = require('./lessons/love-sweet-talk.json');
 const loveFightMakeup = require('./lessons/love-fight-makeup.json');
+const loveCare = require('./lessons/love-care.json');
 
 // Swear Words
 const swearMild = require('./lessons/swear-mild.json');
@@ -72,7 +73,7 @@ export const SHADOW_ALBUMS: ShadowAlbum[] = [
     icon: '💕',
     description: '搭讪表白、热恋撒娇、吵架和好',
     descriptionEn: 'Flirting, sweet talk, fighting and making up',
-    lessons: [loveFlirting, loveSweetTalk, loveFightMakeup],
+    lessons: [loveFlirting, loveSweetTalk, loveCare, loveFightMakeup],
   },
   // Swear Words
   {

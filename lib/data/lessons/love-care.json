@@ -1,0 +1,163 @@
+{
+  "id": "love-care",
+  "title": "关心照顾",
+  "titleEn": "Caring & Looking After",
+  "description": "How to show you care in Chinese — from the classic '多喝热水' to real concern.",
+  "source": "恋人的话",
+  "sourceEn": "Lover's Words",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "多喝热水。",
+      "pinyin": "Duō hē rè shuǐ.",
+      "translation": "Drink more hot water.",
+      "words": [
+        {"id": "s01-0", "hanzi": "多", "pinyin": "duō", "meaning": "more"},
+        {"id": "s01-1", "hanzi": "喝", "pinyin": "hē", "meaning": "drink"},
+        {"id": "s01-2", "hanzi": "热水", "pinyin": "rè shuǐ", "meaning": "hot water"},
+        {"id": "s01-3", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "外面冷，多穿点衣服。",
+      "pinyin": "Wàimiàn lěng, duō chuān diǎn yīfu.",
+      "translation": "It's cold outside — wear more clothes.",
+      "words": [
+        {"id": "s02-0", "hanzi": "外面", "pinyin": "wàimiàn", "meaning": "outside"},
+        {"id": "s02-1", "hanzi": "冷", "pinyin": "lěng", "meaning": "cold"},
+        {"id": "s02-2", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s02-3", "hanzi": "多", "pinyin": "duō", "meaning": "more"},
+        {"id": "s02-4", "hanzi": "穿", "pinyin": "chuān", "meaning": "wear"},
+        {"id": "s02-5", "hanzi": "点", "pinyin": "diǎn", "meaning": "a bit"},
+        {"id": "s02-6", "hanzi": "衣服", "pinyin": "yīfu", "meaning": "clothes"},
+        {"id": "s02-7", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "你吃饭了吗？别忘了吃饭。",
+      "pinyin": "Nǐ chīfàn le ma? Bié wàng le chīfàn.",
+      "translation": "Have you eaten? Don't forget to eat.",
+      "words": [
+        {"id": "s03-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s03-1", "hanzi": "吃饭", "pinyin": "chīfàn", "meaning": "eat"},
+        {"id": "s03-2", "hanzi": "了吗", "pinyin": "le ma", "meaning": "(have you?)"},
+        {"id": "s03-3", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s03-4", "hanzi": "别", "pinyin": "bié", "meaning": "don't"},
+        {"id": "s03-5", "hanzi": "忘了", "pinyin": "wàng le", "meaning": "forget"},
+        {"id": "s03-6", "hanzi": "吃饭", "pinyin": "chīfàn", "meaning": "eat"},
+        {"id": "s03-7", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "早点睡，别熬夜了。",
+      "pinyin": "Zǎo diǎn shuì, bié áoyè le.",
+      "translation": "Go to bed early — stop staying up late.",
+      "words": [
+        {"id": "s04-0", "hanzi": "早点", "pinyin": "zǎo diǎn", "meaning": "earlier"},
+        {"id": "s04-1", "hanzi": "睡", "pinyin": "shuì", "meaning": "sleep"},
+        {"id": "s04-2", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s04-3", "hanzi": "别", "pinyin": "bié", "meaning": "don't"},
+        {"id": "s04-4", "hanzi": "熬夜", "pinyin": "áoyè", "meaning": "stay up late"},
+        {"id": "s04-5", "hanzi": "了", "pinyin": "le", "meaning": "anymore"},
+        {"id": "s04-6", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "你不舒服吗？我带你去看医生。",
+      "pinyin": "Nǐ bù shūfu ma? Wǒ dài nǐ qù kàn yīshēng.",
+      "translation": "Are you feeling unwell? I'll take you to the doctor.",
+      "words": [
+        {"id": "s05-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s05-1", "hanzi": "不舒服", "pinyin": "bù shūfu", "meaning": "uncomfortable/unwell"},
+        {"id": "s05-2", "hanzi": "吗", "pinyin": "ma", "meaning": "(question)"},
+        {"id": "s05-3", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s05-4", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s05-5", "hanzi": "带你", "pinyin": "dài nǐ", "meaning": "take you"},
+        {"id": "s05-6", "hanzi": "去", "pinyin": "qù", "meaning": "go"},
+        {"id": "s05-7", "hanzi": "看医生", "pinyin": "kàn yīshēng", "meaning": "see a doctor"},
+        {"id": "s05-8", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "路上小心，到了给我发消息。",
+      "pinyin": "Lùshang xiǎoxīn, dào le gěi wǒ fā xiāoxi.",
+      "translation": "Be careful on the road — text me when you arrive.",
+      "words": [
+        {"id": "s06-0", "hanzi": "路上", "pinyin": "lùshang", "meaning": "on the way"},
+        {"id": "s06-1", "hanzi": "小心", "pinyin": "xiǎoxīn", "meaning": "be careful"},
+        {"id": "s06-2", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s06-3", "hanzi": "到了", "pinyin": "dào le", "meaning": "when you arrive"},
+        {"id": "s06-4", "hanzi": "给我", "pinyin": "gěi wǒ", "meaning": "to me"},
+        {"id": "s06-5", "hanzi": "发消息", "pinyin": "fā xiāoxi", "meaning": "send a message"},
+        {"id": "s06-6", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "别太累了，休息一下吧。",
+      "pinyin": "Bié tài lèi le, xiūxi yíxià ba.",
+      "translation": "Don't overwork yourself — take a break.",
+      "words": [
+        {"id": "s07-0", "hanzi": "别", "pinyin": "bié", "meaning": "don't"},
+        {"id": "s07-1", "hanzi": "太累了", "pinyin": "tài lèi le", "meaning": "too tired"},
+        {"id": "s07-2", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s07-3", "hanzi": "休息", "pinyin": "xiūxi", "meaning": "rest"},
+        {"id": "s07-4", "hanzi": "一下", "pinyin": "yíxià", "meaning": "a bit"},
+        {"id": "s07-5", "hanzi": "吧", "pinyin": "ba", "meaning": "(suggestion)"},
+        {"id": "s07-6", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "我给你煮了碗面，趁热吃。",
+      "pinyin": "Wǒ gěi nǐ zhǔ le wǎn miàn, chèn rè chī.",
+      "translation": "I cooked you a bowl of noodles — eat it while it's hot.",
+      "words": [
+        {"id": "s08-0", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s08-1", "hanzi": "给你", "pinyin": "gěi nǐ", "meaning": "for you"},
+        {"id": "s08-2", "hanzi": "煮了", "pinyin": "zhǔ le", "meaning": "cooked"},
+        {"id": "s08-3", "hanzi": "碗", "pinyin": "wǎn", "meaning": "bowl (measure word)"},
+        {"id": "s08-4", "hanzi": "面", "pinyin": "miàn", "meaning": "noodles"},
+        {"id": "s08-5", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s08-6", "hanzi": "趁热", "pinyin": "chèn rè", "meaning": "while it's hot"},
+        {"id": "s08-7", "hanzi": "吃", "pinyin": "chī", "meaning": "eat"},
+        {"id": "s08-8", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "药吃了吗？按时吃药才能好。",
+      "pinyin": "Yào chī le ma? Ànshí chī yào cái néng hǎo.",
+      "translation": "Did you take your medicine? You need to take it on time to get better.",
+      "words": [
+        {"id": "s09-0", "hanzi": "药", "pinyin": "yào", "meaning": "medicine"},
+        {"id": "s09-1", "hanzi": "吃了吗", "pinyin": "chī le ma", "meaning": "have you taken"},
+        {"id": "s09-2", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s09-3", "hanzi": "按时", "pinyin": "ànshí", "meaning": "on time"},
+        {"id": "s09-4", "hanzi": "吃药", "pinyin": "chī yào", "meaning": "take medicine"},
+        {"id": "s09-5", "hanzi": "才能", "pinyin": "cái néng", "meaning": "only then can"},
+        {"id": "s09-6", "hanzi": "好", "pinyin": "hǎo", "meaning": "get better"},
+        {"id": "s09-7", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "有我在呢，别怕。",
+      "pinyin": "Yǒu wǒ zài ne, bié pà.",
+      "translation": "I'm here — don't be afraid.",
+      "words": [
+        {"id": "s10-0", "hanzi": "有我在", "pinyin": "yǒu wǒ zài", "meaning": "I'm here (for you)"},
+        {"id": "s10-1", "hanzi": "呢", "pinyin": "ne", "meaning": "(reassuring particle)"},
+        {"id": "s10-2", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s10-3", "hanzi": "别怕", "pinyin": "bié pà", "meaning": "don't be afraid"},
+        {"id": "s10-4", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    }
+  ]
+}
