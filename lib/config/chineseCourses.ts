@@ -9,6 +9,7 @@ export interface ChineseAlbum {
   name: string;
   nameEn: string;
   icon: string;
+  coverImage?: string;
   description?: string;
 }
 
@@ -58,6 +59,7 @@ export const CHINESE_COURSE_GROUPS: ChineseCourseGroup[] = [
         name: '祝福的话',
         nameEn: 'Blessings',
         icon: '🎉',
+        coverImage: '/album-covers/basics-blessing.png',
         description: '节日祝福、婚礼贺词、生日快乐',
       },
       {
@@ -65,6 +67,7 @@ export const CHINESE_COURSE_GROUPS: ChineseCourseGroup[] = [
         name: '恋人的话',
         nameEn: "Lover's Words",
         icon: '💕',
+        coverImage: '/album-covers/basics-love.png',
         description: '搭讪表白、热恋撒娇、吵架和好',
       },
       {
@@ -72,6 +75,7 @@ export const CHINESE_COURSE_GROUPS: ChineseCourseGroup[] = [
         name: '骂人的话',
         nameEn: 'Swear Words',
         icon: '🤬',
+        coverImage: '/album-covers/basics-swear.png',
         description: '日常吐槽、真的生气、国骂经典',
       },
     ],
@@ -107,6 +111,7 @@ export const CHINESE_COURSE_GROUPS: ChineseCourseGroup[] = [
         name: '搜神记',
         nameEn: 'In Search of the Supernatural',
         icon: '👻',
+        coverImage: '/album-covers/ancient-soushenji.png',
         description: '东晋志怪小说 · 影子跟读',
       },
       {
@@ -114,6 +119,7 @@ export const CHINESE_COURSE_GROUPS: ChineseCourseGroup[] = [
         name: '世说新语',
         nameEn: 'Tales of the World',
         icon: '😂',
+        coverImage: '/album-covers/ancient-shishuoxinyu.png',
         description: '南朝名人轶事 · 影子跟读',
       },
       {
@@ -121,6 +127,7 @@ export const CHINESE_COURSE_GROUPS: ChineseCourseGroup[] = [
         name: '梦溪笔谈',
         nameEn: 'Dream Pool Essays',
         icon: '🔬',
+        coverImage: '/album-covers/ancient-mengxibitan.png',
         description: '北宋科学笔记 · 影子跟读',
       },
     ],

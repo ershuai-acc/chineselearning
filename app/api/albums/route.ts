@@ -14,7 +14,7 @@ export async function GET() {
         nameEn: album.nameEn,
         icon: album.icon,
         description: album.description || null,
-        coverImage: null,
+        coverImage: album.coverImage || null,
       })),
     })).filter(g => g.albums.length > 0);
 

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Loader2 } from 'lucide-react';
 
 interface Album {
@@ -61,8 +62,18 @@ export function CourseGrid() {
                   href={`/album/${album.id}`}
                   className="group flex flex-col items-center rounded-2xl bg-white border-2 border-b-4 border-duo-swan hover:bg-duo-polar hover:border-duo-polar hover:-translate-y-1 active:translate-y-0.5 active:border-b-2 transition-all duration-200 overflow-hidden"
                 >
-                  <div className="w-full aspect-square flex items-center justify-center bg-duo-polar">
-                    <span className="text-4xl md:text-5xl">{album.icon}</span>
+                  <div className="w-full aspect-square flex items-center justify-center bg-duo-polar overflow-hidden">
+                    {album.coverImage ? (
+                      <Image
+                        src={album.coverImage}
+                        alt={album.name}
+                        width={400}
+                        height={400}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <span className="text-4xl md:text-5xl">{album.icon}</span>
+                    )}
                   </div>
                   <div className="flex flex-col items-center px-3 py-4">
                     <span className="text-lg md:text-xl font-extrabold text-duo-eel text-center leading-tight mb-1">{album.name}</span>
