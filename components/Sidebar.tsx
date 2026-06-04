@@ -6,9 +6,7 @@ import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils/cn';
 import {
   BookOpen,
-  RotateCcw,
-  BookA,
-  Gamepad2,
+  Music,
   HelpCircle,
   Settings,
   MoreHorizontal,
@@ -16,25 +14,21 @@ import {
 } from 'lucide-react';
 
 const NAV_ITEMS = [
-  { href: '/', label: '课程', icon: BookOpen },
-  { href: '/review', label: '复习', icon: RotateCcw },
-  { href: '/vocabulary', label: '单词本', icon: BookA },
-  { href: '/games', label: '小游戏', icon: Gamepad2 },
-  { href: '/guide', label: '说明', icon: HelpCircle },
+  { href: '/', label: 'Courses', icon: BookOpen },
+  { href: '/pinyin', label: 'Pinyin', icon: Music },
+  { href: '/guide', label: 'About', icon: HelpCircle },
 ];
 
 // Primary tabs shown in mobile bottom bar
 const MOBILE_PRIMARY_ITEMS = [
-  { href: '/', label: '课程', icon: BookOpen },
-  { href: '/review', label: '复习', icon: RotateCcw },
-  { href: '/games', label: '小游戏', icon: Gamepad2 },
-  { href: '/vocabulary', label: '单词本', icon: BookA },
+  { href: '/', label: 'Courses', icon: BookOpen },
+  { href: '/pinyin', label: 'Pinyin', icon: Music },
+  { href: '/guide', label: 'About', icon: HelpCircle },
 ];
 
 // Items shown in "More" menu on mobile
 const MOBILE_MORE_ITEMS = [
-  { href: '/guide', label: '说明', icon: HelpCircle },
-  { href: '/settings', label: '设置', icon: Settings },
+  { href: '/settings', label: 'Settings', icon: Settings },
 ];
 
 export function Sidebar() {
@@ -88,7 +82,7 @@ export function Sidebar() {
             )}
           >
             <Settings className={cn("w-8 h-8", pathname.startsWith('/settings') ? "text-duo-macaw" : "text-duo-hare")} strokeWidth={pathname.startsWith('/settings') ? 2.5 : 2} />
-            <span className="mt-1">设置</span>
+            <span className="mt-1">Settings</span>
           </Link>
         </div>
       </aside>
@@ -140,7 +134,7 @@ export function Sidebar() {
             "text-[11px] font-bold mt-0.5",
             (isMoreActive || moreMenuOpen) ? "text-duo-macaw" : "text-duo-hare"
           )}>
-            更多
+            More
           </span>
         </button>
       </nav>

@@ -28,7 +28,8 @@ export function CourseGrid() {
       .then(res => res.json())
       .then(data => {
         if (data.success && data.groups) {
-          setGroups(data.groups);
+          // Filter out pinyin group (it has its own tab)
+          setGroups(data.groups.filter((g: CourseGroup) => g.id !== 'pinyin'));
         }
       })
       .catch(console.error)
@@ -49,8 +50,8 @@ export function CourseGrid() {
         {groups.map(group => (
           <section key={group.id} className="w-full flex flex-col items-center">
             <h2 className="text-3xl md:text-4xl font-extrabold text-duo-eel mb-10 text-center flex items-center justify-center gap-3">
-              {group.title}
-              <span className="text-duo-hare text-2xl md:text-3xl font-bold">{group.titleEn}</span>
+              {group.titleEn}
+              <span className="text-duo-hare text-2xl md:text-3xl font-bold">{group.title}</span>
             </h2>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 w-full max-w-4xl">

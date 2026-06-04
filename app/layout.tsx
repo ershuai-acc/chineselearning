@@ -14,6 +14,8 @@ export const metadata: Metadata = {
   description: "Learn Chinese pronunciation step by step",
   icons: {
     icon: "/icon.png",
+    shortcut: "/favicon.ico",
+    apple: "/icon.png",
   },
 };
 
