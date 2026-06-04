@@ -1,0 +1,161 @@
+{
+  "id": "blessing-birthday",
+  "title": "参加生日会",
+  "titleEn": "Birthday Party",
+  "description": "Birthday wishes and party phrases in Chinese — from casual to formal.",
+  "source": "祝福的话",
+  "sourceEn": "Words of Blessing",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "生日快乐！",
+      "pinyin": "Shēngrì kuàilè!",
+      "translation": "Happy birthday!",
+      "words": [
+        {"id": "s01-0", "hanzi": "生日", "pinyin": "shēngrì", "meaning": "birthday"},
+        {"id": "s01-1", "hanzi": "快乐", "pinyin": "kuàilè", "meaning": "happy"},
+        {"id": "s01-2", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "祝你天天开心，越来越漂亮！",
+      "pinyin": "Zhù nǐ tiāntiān kāixīn, yuè lái yuè piàoliang!",
+      "translation": "Wishing you happiness every day, and growing more beautiful!",
+      "words": [
+        {"id": "s02-0", "hanzi": "祝", "pinyin": "zhù", "meaning": "wish"},
+        {"id": "s02-1", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s02-2", "hanzi": "天天", "pinyin": "tiāntiān", "meaning": "every day"},
+        {"id": "s02-3", "hanzi": "开心", "pinyin": "kāixīn", "meaning": "happy"},
+        {"id": "s02-4", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s02-5", "hanzi": "越来越", "pinyin": "yuè lái yuè", "meaning": "more and more"},
+        {"id": "s02-6", "hanzi": "漂亮", "pinyin": "piàoliang", "meaning": "beautiful"},
+        {"id": "s02-7", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "这是给你的礼物，希望你喜欢！",
+      "pinyin": "Zhè shì gěi nǐ de lǐwù, xīwàng nǐ xǐhuan!",
+      "translation": "This is a gift for you — hope you like it!",
+      "words": [
+        {"id": "s03-0", "hanzi": "这", "pinyin": "zhè", "meaning": "this"},
+        {"id": "s03-1", "hanzi": "是", "pinyin": "shì", "meaning": "is"},
+        {"id": "s03-2", "hanzi": "给你的", "pinyin": "gěi nǐ de", "meaning": "for you"},
+        {"id": "s03-3", "hanzi": "礼物", "pinyin": "lǐwù", "meaning": "gift"},
+        {"id": "s03-4", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s03-5", "hanzi": "希望", "pinyin": "xīwàng", "meaning": "hope"},
+        {"id": "s03-6", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s03-7", "hanzi": "喜欢", "pinyin": "xǐhuan", "meaning": "like"},
+        {"id": "s03-8", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "快许愿！吹蜡烛！",
+      "pinyin": "Kuài xǔyuàn! Chuī làzhú!",
+      "translation": "Make a wish! Blow out the candles!",
+      "words": [
+        {"id": "s04-0", "hanzi": "快", "pinyin": "kuài", "meaning": "quickly"},
+        {"id": "s04-1", "hanzi": "许愿", "pinyin": "xǔyuàn", "meaning": "make a wish"},
+        {"id": "s04-2", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s04-3", "hanzi": "吹", "pinyin": "chuī", "meaning": "blow"},
+        {"id": "s04-4", "hanzi": "蜡烛", "pinyin": "làzhú", "meaning": "candle"},
+        {"id": "s04-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "你今年多大了？永远十八岁！",
+      "pinyin": "Nǐ jīnnián duō dà le? Yǒngyuǎn shíbā suì!",
+      "translation": "How old are you this year? Forever eighteen!",
+      "words": [
+        {"id": "s05-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s05-1", "hanzi": "今年", "pinyin": "jīnnián", "meaning": "this year"},
+        {"id": "s05-2", "hanzi": "多大", "pinyin": "duō dà", "meaning": "how old"},
+        {"id": "s05-3", "hanzi": "了", "pinyin": "le", "meaning": "(particle)"},
+        {"id": "s05-4", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s05-5", "hanzi": "永远", "pinyin": "yǒngyuǎn", "meaning": "forever"},
+        {"id": "s05-6", "hanzi": "十八岁", "pinyin": "shíbā suì", "meaning": "18 years old"},
+        {"id": "s05-7", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "蛋糕好好吃！谁买的？",
+      "pinyin": "Dàngāo hǎo hǎochī! Shéi mǎi de?",
+      "translation": "The cake is so delicious! Who bought it?",
+      "words": [
+        {"id": "s06-0", "hanzi": "蛋糕", "pinyin": "dàngāo", "meaning": "cake"},
+        {"id": "s06-1", "hanzi": "好", "pinyin": "hǎo", "meaning": "so/very"},
+        {"id": "s06-2", "hanzi": "好吃", "pinyin": "hǎochī", "meaning": "delicious"},
+        {"id": "s06-3", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s06-4", "hanzi": "谁", "pinyin": "shéi", "meaning": "who"},
+        {"id": "s06-5", "hanzi": "买的", "pinyin": "mǎi de", "meaning": "bought"},
+        {"id": "s06-6", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "祝你越活越年轻！",
+      "pinyin": "Zhù nǐ yuè huó yuè niánqīng!",
+      "translation": "May you live younger and younger!",
+      "words": [
+        {"id": "s07-0", "hanzi": "祝", "pinyin": "zhù", "meaning": "wish"},
+        {"id": "s07-1", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s07-2", "hanzi": "越活越", "pinyin": "yuè huó yuè", "meaning": "the more you live, the more"},
+        {"id": "s07-3", "hanzi": "年轻", "pinyin": "niánqīng", "meaning": "young"},
+        {"id": "s07-4", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "来！一起唱生日歌！",
+      "pinyin": "Lái! Yìqǐ chàng shēngrì gē!",
+      "translation": "Come on! Let's sing the birthday song together!",
+      "words": [
+        {"id": "s08-0", "hanzi": "来", "pinyin": "lái", "meaning": "come on"},
+        {"id": "s08-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s08-2", "hanzi": "一起", "pinyin": "yìqǐ", "meaning": "together"},
+        {"id": "s08-3", "hanzi": "唱", "pinyin": "chàng", "meaning": "sing"},
+        {"id": "s08-4", "hanzi": "生日歌", "pinyin": "shēngrì gē", "meaning": "birthday song"},
+        {"id": "s08-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "祝你梦想成真，前程似锦！",
+      "pinyin": "Zhù nǐ mèngxiǎng chéngzhēn, qiánchéng sìjǐn!",
+      "translation": "May your dreams come true and your future be bright!",
+      "words": [
+        {"id": "s09-0", "hanzi": "祝", "pinyin": "zhù", "meaning": "wish"},
+        {"id": "s09-1", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s09-2", "hanzi": "梦想", "pinyin": "mèngxiǎng", "meaning": "dream"},
+        {"id": "s09-3", "hanzi": "成真", "pinyin": "chéngzhēn", "meaning": "come true"},
+        {"id": "s09-4", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s09-5", "hanzi": "前程似锦", "pinyin": "qiánchéng sìjǐn", "meaning": "bright future ahead"},
+        {"id": "s09-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "今天你最大！想吃什么？我请客！",
+      "pinyin": "Jīntiān nǐ zuì dà! Xiǎng chī shénme? Wǒ qǐngkè!",
+      "translation": "Today you're the boss! What do you want to eat? My treat!",
+      "words": [
+        {"id": "s10-0", "hanzi": "今天", "pinyin": "jīntiān", "meaning": "today"},
+        {"id": "s10-1", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s10-2", "hanzi": "最大", "pinyin": "zuì dà", "meaning": "the biggest/the boss"},
+        {"id": "s10-3", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s10-4", "hanzi": "想", "pinyin": "xiǎng", "meaning": "want to"},
+        {"id": "s10-5", "hanzi": "吃", "pinyin": "chī", "meaning": "eat"},
+        {"id": "s10-6", "hanzi": "什么", "pinyin": "shénme", "meaning": "what"},
+        {"id": "s10-7", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s10-8", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s10-9", "hanzi": "请客", "pinyin": "qǐngkè", "meaning": "treat/pay"},
+        {"id": "s10-10", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    }
+  ]
+}

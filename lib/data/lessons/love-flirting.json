@@ -1,0 +1,164 @@
+{
+  "id": "love-flirting",
+  "title": "搭讪和表白",
+  "titleEn": "Flirting & Confessing",
+  "description": "How to approach someone you like and confess your feelings in Chinese.",
+  "source": "恋人的话",
+  "sourceEn": "Lover's Words",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "你好漂亮，可以认识一下吗？",
+      "pinyin": "Nǐ hǎo piàoliang, kěyǐ rènshi yíxià ma?",
+      "translation": "You're so beautiful — can I get to know you?",
+      "words": [
+        {"id": "s01-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s01-1", "hanzi": "好", "pinyin": "hǎo", "meaning": "so/very"},
+        {"id": "s01-2", "hanzi": "漂亮", "pinyin": "piàoliang", "meaning": "beautiful"},
+        {"id": "s01-3", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s01-4", "hanzi": "可以", "pinyin": "kěyǐ", "meaning": "can/may"},
+        {"id": "s01-5", "hanzi": "认识", "pinyin": "rènshi", "meaning": "get to know"},
+        {"id": "s01-6", "hanzi": "一下", "pinyin": "yíxià", "meaning": "a bit"},
+        {"id": "s01-7", "hanzi": "吗", "pinyin": "ma", "meaning": "(question particle)"},
+        {"id": "s01-8", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "能加你微信吗？",
+      "pinyin": "Néng jiā nǐ wēixìn ma?",
+      "translation": "Can I add you on WeChat?",
+      "words": [
+        {"id": "s02-0", "hanzi": "能", "pinyin": "néng", "meaning": "can"},
+        {"id": "s02-1", "hanzi": "加", "pinyin": "jiā", "meaning": "add"},
+        {"id": "s02-2", "hanzi": "你", "pinyin": "nǐ", "meaning": "your"},
+        {"id": "s02-3", "hanzi": "微信", "pinyin": "wēixìn", "meaning": "WeChat"},
+        {"id": "s02-4", "hanzi": "吗", "pinyin": "ma", "meaning": "(question particle)"},
+        {"id": "s02-5", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "我对你一见钟情。",
+      "pinyin": "Wǒ duì nǐ yíjiàn zhōngqíng.",
+      "translation": "I fell in love with you at first sight.",
+      "words": [
+        {"id": "s03-0", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s03-1", "hanzi": "对你", "pinyin": "duì nǐ", "meaning": "toward you"},
+        {"id": "s03-2", "hanzi": "一见钟情", "pinyin": "yíjiàn zhōngqíng", "meaning": "love at first sight"},
+        {"id": "s03-3", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "我喜欢你，你愿意做我女朋友吗？",
+      "pinyin": "Wǒ xǐhuan nǐ, nǐ yuànyì zuò wǒ nǚpéngyou ma?",
+      "translation": "I like you — will you be my girlfriend?",
+      "words": [
+        {"id": "s04-0", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s04-1", "hanzi": "喜欢", "pinyin": "xǐhuan", "meaning": "like"},
+        {"id": "s04-2", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s04-3", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s04-4", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s04-5", "hanzi": "愿意", "pinyin": "yuànyì", "meaning": "willing to"},
+        {"id": "s04-6", "hanzi": "做", "pinyin": "zuò", "meaning": "be"},
+        {"id": "s04-7", "hanzi": "我", "pinyin": "wǒ", "meaning": "my"},
+        {"id": "s04-8", "hanzi": "女朋友", "pinyin": "nǚpéngyou", "meaning": "girlfriend"},
+        {"id": "s04-9", "hanzi": "吗", "pinyin": "ma", "meaning": "(question)"},
+        {"id": "s04-10", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "你笑起来真好看。",
+      "pinyin": "Nǐ xiào qǐlái zhēn hǎokàn.",
+      "translation": "You look so beautiful when you smile.",
+      "words": [
+        {"id": "s05-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s05-1", "hanzi": "笑起来", "pinyin": "xiào qǐlái", "meaning": "when smiling"},
+        {"id": "s05-2", "hanzi": "真", "pinyin": "zhēn", "meaning": "really"},
+        {"id": "s05-3", "hanzi": "好看", "pinyin": "hǎokàn", "meaning": "good-looking"},
+        {"id": "s05-4", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "我们可以一起吃饭吗？我请你。",
+      "pinyin": "Wǒmen kěyǐ yìqǐ chīfàn ma? Wǒ qǐng nǐ.",
+      "translation": "Can we have dinner together? My treat.",
+      "words": [
+        {"id": "s06-0", "hanzi": "我们", "pinyin": "wǒmen", "meaning": "we"},
+        {"id": "s06-1", "hanzi": "可以", "pinyin": "kěyǐ", "meaning": "can"},
+        {"id": "s06-2", "hanzi": "一起", "pinyin": "yìqǐ", "meaning": "together"},
+        {"id": "s06-3", "hanzi": "吃饭", "pinyin": "chīfàn", "meaning": "eat/have a meal"},
+        {"id": "s06-4", "hanzi": "吗", "pinyin": "ma", "meaning": "(question)"},
+        {"id": "s06-5", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s06-6", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s06-7", "hanzi": "请", "pinyin": "qǐng", "meaning": "treat/invite"},
+        {"id": "s06-8", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s06-9", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "你有男朋友吗？",
+      "pinyin": "Nǐ yǒu nánpéngyou ma?",
+      "translation": "Do you have a boyfriend?",
+      "words": [
+        {"id": "s07-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s07-1", "hanzi": "有", "pinyin": "yǒu", "meaning": "have"},
+        {"id": "s07-2", "hanzi": "男朋友", "pinyin": "nánpéngyou", "meaning": "boyfriend"},
+        {"id": "s07-3", "hanzi": "吗", "pinyin": "ma", "meaning": "(question)"},
+        {"id": "s07-4", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "我每天都在想你。",
+      "pinyin": "Wǒ měitiān dōu zài xiǎng nǐ.",
+      "translation": "I think about you every day.",
+      "words": [
+        {"id": "s08-0", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s08-1", "hanzi": "每天", "pinyin": "měitiān", "meaning": "every day"},
+        {"id": "s08-2", "hanzi": "都", "pinyin": "dōu", "meaning": "all/always"},
+        {"id": "s08-3", "hanzi": "在", "pinyin": "zài", "meaning": "(in progress)"},
+        {"id": "s08-4", "hanzi": "想", "pinyin": "xiǎng", "meaning": "think of/miss"},
+        {"id": "s08-5", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s08-6", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "我爱你，嫁给我好不好？",
+      "pinyin": "Wǒ ài nǐ, jià gěi wǒ hǎo bù hǎo?",
+      "translation": "I love you — will you marry me?",
+      "words": [
+        {"id": "s09-0", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s09-1", "hanzi": "爱", "pinyin": "ài", "meaning": "love"},
+        {"id": "s09-2", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s09-3", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s09-4", "hanzi": "嫁给", "pinyin": "jià gěi", "meaning": "marry (a man)"},
+        {"id": "s09-5", "hanzi": "我", "pinyin": "wǒ", "meaning": "me"},
+        {"id": "s09-6", "hanzi": "好不好", "pinyin": "hǎo bù hǎo", "meaning": "okay?"},
+        {"id": "s09-7", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "遇见你是我最幸运的事。",
+      "pinyin": "Yùjiàn nǐ shì wǒ zuì xìngyùn de shì.",
+      "translation": "Meeting you is the luckiest thing in my life.",
+      "words": [
+        {"id": "s10-0", "hanzi": "遇见", "pinyin": "yùjiàn", "meaning": "meet"},
+        {"id": "s10-1", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s10-2", "hanzi": "是", "pinyin": "shì", "meaning": "is"},
+        {"id": "s10-3", "hanzi": "我", "pinyin": "wǒ", "meaning": "my"},
+        {"id": "s10-4", "hanzi": "最", "pinyin": "zuì", "meaning": "most"},
+        {"id": "s10-5", "hanzi": "幸运的", "pinyin": "xìngyùn de", "meaning": "lucky"},
+        {"id": "s10-6", "hanzi": "事", "pinyin": "shì", "meaning": "thing"},
+        {"id": "s10-7", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "blessing-wedding",
+  "title": "祝福新人",
+  "titleEn": "Wedding Blessings",
+  "description": "Essential phrases for Chinese weddings — toasts, congratulations, and well-wishes for the newlyweds.",
+  "source": "祝福的话",
+  "sourceEn": "Words of Blessing",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "新婚快乐！百年好合！",
+      "pinyin": "Xīnhūn kuàilè! Bǎinián hǎohé!",
+      "translation": "Happy wedding! May you stay together for a hundred years!",
+      "words": [
+        {"id": "s01-0", "hanzi": "新婚", "pinyin": "xīnhūn", "meaning": "newlywed"},
+        {"id": "s01-1", "hanzi": "快乐", "pinyin": "kuàilè", "meaning": "happy"},
+        {"id": "s01-2", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s01-3", "hanzi": "百年", "pinyin": "bǎinián", "meaning": "a hundred years"},
+        {"id": "s01-4", "hanzi": "好合", "pinyin": "hǎohé", "meaning": "harmonious union"},
+        {"id": "s01-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "祝你们永远幸福！",
+      "pinyin": "Zhù nǐmen yǒngyuǎn xìngfú!",
+      "translation": "Wishing you happiness forever!",
+      "words": [
+        {"id": "s02-0", "hanzi": "祝", "pinyin": "zhù", "meaning": "wish"},
+        {"id": "s02-1", "hanzi": "你们", "pinyin": "nǐmen", "meaning": "you (plural)"},
+        {"id": "s02-2", "hanzi": "永远", "pinyin": "yǒngyuǎn", "meaning": "forever"},
+        {"id": "s02-3", "hanzi": "幸福", "pinyin": "xìngfú", "meaning": "happy/blessed"},
+        {"id": "s02-4", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "早生贵子！",
+      "pinyin": "Zǎo shēng guìzǐ!",
+      "translation": "May you have a baby soon!",
+      "words": [
+        {"id": "s03-0", "hanzi": "早", "pinyin": "zǎo", "meaning": "early/soon"},
+        {"id": "s03-1", "hanzi": "生", "pinyin": "shēng", "meaning": "give birth"},
+        {"id": "s03-2", "hanzi": "贵子", "pinyin": "guìzǐ", "meaning": "precious child"},
+        {"id": "s03-3", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "天作之合！郎才女貌！",
+      "pinyin": "Tiān zuò zhī hé! Láng cái nǚ mào!",
+      "translation": "A match made in heaven! Talented groom and beautiful bride!",
+      "words": [
+        {"id": "s04-0", "hanzi": "天作之合", "pinyin": "tiān zuò zhī hé", "meaning": "a match made in heaven"},
+        {"id": "s04-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s04-2", "hanzi": "郎才女貌", "pinyin": "láng cái nǚ mào", "meaning": "talented man, beautiful woman"},
+        {"id": "s04-3", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "你们真般配！祝白头偕老！",
+      "pinyin": "Nǐmen zhēn bānpèi! Zhù báitóu xiélǎo!",
+      "translation": "You're a perfect match! May you grow old together!",
+      "words": [
+        {"id": "s05-0", "hanzi": "你们", "pinyin": "nǐmen", "meaning": "you two"},
+        {"id": "s05-1", "hanzi": "真", "pinyin": "zhēn", "meaning": "really"},
+        {"id": "s05-2", "hanzi": "般配", "pinyin": "bānpèi", "meaning": "well-matched"},
+        {"id": "s05-3", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s05-4", "hanzi": "祝", "pinyin": "zhù", "meaning": "wish"},
+        {"id": "s05-5", "hanzi": "白头偕老", "pinyin": "báitóu xiélǎo", "meaning": "grow old together"},
+        {"id": "s05-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "恭喜恭喜！今天新娘真漂亮！",
+      "pinyin": "Gōngxǐ gōngxǐ! Jīntiān xīnniáng zhēn piàoliang!",
+      "translation": "Congratulations! The bride is so beautiful today!",
+      "words": [
+        {"id": "s06-0", "hanzi": "恭喜恭喜", "pinyin": "gōngxǐ gōngxǐ", "meaning": "congratulations"},
+        {"id": "s06-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s06-2", "hanzi": "今天", "pinyin": "jīntiān", "meaning": "today"},
+        {"id": "s06-3", "hanzi": "新娘", "pinyin": "xīnniáng", "meaning": "bride"},
+        {"id": "s06-4", "hanzi": "真", "pinyin": "zhēn", "meaning": "really"},
+        {"id": "s06-5", "hanzi": "漂亮", "pinyin": "piàoliang", "meaning": "beautiful"},
+        {"id": "s06-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "干杯！为新人的爱情干杯！",
+      "pinyin": "Gānbēi! Wèi xīnrén de àiqíng gānbēi!",
+      "translation": "Cheers! A toast to the newlyweds' love!",
+      "words": [
+        {"id": "s07-0", "hanzi": "干杯", "pinyin": "gānbēi", "meaning": "cheers/bottoms up"},
+        {"id": "s07-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s07-2", "hanzi": "为", "pinyin": "wèi", "meaning": "for"},
+        {"id": "s07-3", "hanzi": "新人", "pinyin": "xīnrén", "meaning": "newlyweds"},
+        {"id": "s07-4", "hanzi": "的", "pinyin": "de", "meaning": "'s"},
+        {"id": "s07-5", "hanzi": "爱情", "pinyin": "àiqíng", "meaning": "love"},
+        {"id": "s07-6", "hanzi": "干杯", "pinyin": "gānbēi", "meaning": "cheers"},
+        {"id": "s07-7", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "祝你们甜甜蜜蜜，恩恩爱爱！",
+      "pinyin": "Zhù nǐmen tiántián mìmì, ēn'ēn àiài!",
+      "translation": "Wishing you sweet and loving days together!",
+      "words": [
+        {"id": "s08-0", "hanzi": "祝", "pinyin": "zhù", "meaning": "wish"},
+        {"id": "s08-1", "hanzi": "你们", "pinyin": "nǐmen", "meaning": "you two"},
+        {"id": "s08-2", "hanzi": "甜甜蜜蜜", "pinyin": "tiántián mìmì", "meaning": "sweet and honey-like"},
+        {"id": "s08-3", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s08-4", "hanzi": "恩恩爱爱", "pinyin": "ēn'ēn àiài", "meaning": "deeply in love"},
+        {"id": "s08-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "红包给你们，小小心意！",
+      "pinyin": "Hóngbāo gěi nǐmen, xiǎoxiǎo xīnyì!",
+      "translation": "Here's a red envelope for you — just a small token!",
+      "words": [
+        {"id": "s09-0", "hanzi": "红包", "pinyin": "hóngbāo", "meaning": "red envelope (money gift)"},
+        {"id": "s09-1", "hanzi": "给", "pinyin": "gěi", "meaning": "give to"},
+        {"id": "s09-2", "hanzi": "你们", "pinyin": "nǐmen", "meaning": "you two"},
+        {"id": "s09-3", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s09-4", "hanzi": "小小", "pinyin": "xiǎoxiǎo", "meaning": "small/humble"},
+        {"id": "s09-5", "hanzi": "心意", "pinyin": "xīnyì", "meaning": "token of affection"},
+        {"id": "s09-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "永结同心！举案齐眉！",
+      "pinyin": "Yǒng jié tóngxīn! Jǔ'àn qíméi!",
+      "translation": "Forever united in heart! Mutual respect and love!",
+      "words": [
+        {"id": "s10-0", "hanzi": "永结同心", "pinyin": "yǒng jié tóngxīn", "meaning": "forever united in heart"},
+        {"id": "s10-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s10-2", "hanzi": "举案齐眉", "pinyin": "jǔ'àn qíméi", "meaning": "treat each other with respect"},
+        {"id": "s10-3", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    }
+  ]
+}

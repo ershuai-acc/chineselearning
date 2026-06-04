@@ -1,0 +1,162 @@
+{
+  "id": "love-fight-makeup",
+  "title": "吵架和好",
+  "titleEn": "Fighting & Making Up",
+  "description": "How couples argue and reconcile in Chinese — from cold shoulders to sweet apologies.",
+  "source": "恋人的话",
+  "sourceEn": "Lover's Words",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "你为什么不回我消息？",
+      "pinyin": "Nǐ wèishénme bù huí wǒ xiāoxi?",
+      "translation": "Why didn't you reply to my message?",
+      "words": [
+        {"id": "s01-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s01-1", "hanzi": "为什么", "pinyin": "wèishénme", "meaning": "why"},
+        {"id": "s01-2", "hanzi": "不", "pinyin": "bù", "meaning": "not"},
+        {"id": "s01-3", "hanzi": "回", "pinyin": "huí", "meaning": "reply"},
+        {"id": "s01-4", "hanzi": "我", "pinyin": "wǒ", "meaning": "my"},
+        {"id": "s01-5", "hanzi": "消息", "pinyin": "xiāoxi", "meaning": "message"},
+        {"id": "s01-6", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "你不理我了吗？",
+      "pinyin": "Nǐ bù lǐ wǒ le ma?",
+      "translation": "Are you ignoring me?",
+      "words": [
+        {"id": "s02-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s02-1", "hanzi": "不理", "pinyin": "bù lǐ", "meaning": "ignore"},
+        {"id": "s02-2", "hanzi": "我", "pinyin": "wǒ", "meaning": "me"},
+        {"id": "s02-3", "hanzi": "了", "pinyin": "le", "meaning": "anymore"},
+        {"id": "s02-4", "hanzi": "吗", "pinyin": "ma", "meaning": "(question)"},
+        {"id": "s02-5", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "我们能不能好好说话？",
+      "pinyin": "Wǒmen néng bù néng hǎohǎo shuōhuà?",
+      "translation": "Can we talk properly?",
+      "words": [
+        {"id": "s03-0", "hanzi": "我们", "pinyin": "wǒmen", "meaning": "we"},
+        {"id": "s03-1", "hanzi": "能不能", "pinyin": "néng bù néng", "meaning": "can or not"},
+        {"id": "s03-2", "hanzi": "好好", "pinyin": "hǎohǎo", "meaning": "properly"},
+        {"id": "s03-3", "hanzi": "说话", "pinyin": "shuōhuà", "meaning": "talk"},
+        {"id": "s03-4", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "你每次都这样！烦死了！",
+      "pinyin": "Nǐ měi cì dōu zhèyàng! Fán sǐ le!",
+      "translation": "You're always like this! So annoying!",
+      "words": [
+        {"id": "s04-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s04-1", "hanzi": "每次", "pinyin": "měi cì", "meaning": "every time"},
+        {"id": "s04-2", "hanzi": "都", "pinyin": "dōu", "meaning": "always"},
+        {"id": "s04-3", "hanzi": "这样", "pinyin": "zhèyàng", "meaning": "like this"},
+        {"id": "s04-4", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s04-5", "hanzi": "烦死了", "pinyin": "fán sǐ le", "meaning": "so annoying"},
+        {"id": "s04-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "对不起，是我错了。",
+      "pinyin": "Duìbuqǐ, shì wǒ cuò le.",
+      "translation": "I'm sorry — it's my fault.",
+      "words": [
+        {"id": "s05-0", "hanzi": "对不起", "pinyin": "duìbuqǐ", "meaning": "sorry"},
+        {"id": "s05-1", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s05-2", "hanzi": "是", "pinyin": "shì", "meaning": "is"},
+        {"id": "s05-3", "hanzi": "我", "pinyin": "wǒ", "meaning": "my"},
+        {"id": "s05-4", "hanzi": "错了", "pinyin": "cuò le", "meaning": "mistake/wrong"},
+        {"id": "s05-5", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "别生气了，我以后不会了。",
+      "pinyin": "Bié shēngqì le, wǒ yǐhòu bú huì le.",
+      "translation": "Don't be angry — I won't do it again.",
+      "words": [
+        {"id": "s06-0", "hanzi": "别", "pinyin": "bié", "meaning": "don't"},
+        {"id": "s06-1", "hanzi": "生气", "pinyin": "shēngqì", "meaning": "angry"},
+        {"id": "s06-2", "hanzi": "了", "pinyin": "le", "meaning": "anymore"},
+        {"id": "s06-3", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s06-4", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s06-5", "hanzi": "以后", "pinyin": "yǐhòu", "meaning": "in the future"},
+        {"id": "s06-6", "hanzi": "不会了", "pinyin": "bú huì le", "meaning": "won't anymore"},
+        {"id": "s06-7", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "我们和好吧？我带你去吃好吃的。",
+      "pinyin": "Wǒmen hé hǎo ba? Wǒ dài nǐ qù chī hǎochī de.",
+      "translation": "Let's make up? I'll take you to eat something good.",
+      "words": [
+        {"id": "s07-0", "hanzi": "我们", "pinyin": "wǒmen", "meaning": "we"},
+        {"id": "s07-1", "hanzi": "和好", "pinyin": "hé hǎo", "meaning": "make up/reconcile"},
+        {"id": "s07-2", "hanzi": "吧", "pinyin": "ba", "meaning": "(suggestion)"},
+        {"id": "s07-3", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s07-4", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s07-5", "hanzi": "带你", "pinyin": "dài nǐ", "meaning": "take you"},
+        {"id": "s07-6", "hanzi": "去", "pinyin": "qù", "meaning": "go"},
+        {"id": "s07-7", "hanzi": "吃", "pinyin": "chī", "meaning": "eat"},
+        {"id": "s07-8", "hanzi": "好吃的", "pinyin": "hǎochī de", "meaning": "something delicious"},
+        {"id": "s07-9", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "你再这样我就走了！",
+      "pinyin": "Nǐ zài zhèyàng wǒ jiù zǒu le!",
+      "translation": "If you keep this up, I'm leaving!",
+      "words": [
+        {"id": "s08-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s08-1", "hanzi": "再", "pinyin": "zài", "meaning": "again/keep"},
+        {"id": "s08-2", "hanzi": "这样", "pinyin": "zhèyàng", "meaning": "like this"},
+        {"id": "s08-3", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s08-4", "hanzi": "就", "pinyin": "jiù", "meaning": "then/will"},
+        {"id": "s08-5", "hanzi": "走了", "pinyin": "zǒu le", "meaning": "leave"},
+        {"id": "s08-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "好了好了，不吵了，抱一个。",
+      "pinyin": "Hǎo le hǎo le, bù chǎo le, bào yí gè.",
+      "translation": "Okay okay, let's stop fighting — give me a hug.",
+      "words": [
+        {"id": "s09-0", "hanzi": "好了好了", "pinyin": "hǎo le hǎo le", "meaning": "okay okay (calming)"},
+        {"id": "s09-1", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s09-2", "hanzi": "不吵了", "pinyin": "bù chǎo le", "meaning": "stop arguing"},
+        {"id": "s09-3", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s09-4", "hanzi": "抱", "pinyin": "bào", "meaning": "hug"},
+        {"id": "s09-5", "hanzi": "一个", "pinyin": "yí gè", "meaning": "one"},
+        {"id": "s09-6", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "我不想分手，我离不开你。",
+      "pinyin": "Wǒ bù xiǎng fēnshǒu, wǒ lí bù kāi nǐ.",
+      "translation": "I don't want to break up — I can't live without you.",
+      "words": [
+        {"id": "s10-0", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s10-1", "hanzi": "不想", "pinyin": "bù xiǎng", "meaning": "don't want to"},
+        {"id": "s10-2", "hanzi": "分手", "pinyin": "fēnshǒu", "meaning": "break up"},
+        {"id": "s10-3", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s10-4", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s10-5", "hanzi": "离不开", "pinyin": "lí bù kāi", "meaning": "can't leave/can't live without"},
+        {"id": "s10-6", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s10-7", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "swear-angry",
+  "title": "真的生气了",
+  "titleEn": "Actually Angry",
+  "description": "When someone is really upset — stronger insults and confrontational phrases.",
+  "source": "骂人的话",
+  "sourceEn": "Swear Words",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "滚！别让我再看到你！",
+      "pinyin": "Gǔn! Bié ràng wǒ zài kàn dào nǐ!",
+      "translation": "Get lost! Don't let me see you again!",
+      "words": [
+        {"id": "s01-0", "hanzi": "滚", "pinyin": "gǔn", "meaning": "get lost/scram"},
+        {"id": "s01-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s01-2", "hanzi": "别", "pinyin": "bié", "meaning": "don't"},
+        {"id": "s01-3", "hanzi": "让", "pinyin": "ràng", "meaning": "let"},
+        {"id": "s01-4", "hanzi": "我", "pinyin": "wǒ", "meaning": "me"},
+        {"id": "s01-5", "hanzi": "再", "pinyin": "zài", "meaning": "again"},
+        {"id": "s01-6", "hanzi": "看到", "pinyin": "kàn dào", "meaning": "see"},
+        {"id": "s01-7", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s01-8", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "你放狗屁！",
+      "pinyin": "Nǐ fàng gǒupì!",
+      "translation": "You're talking dog fart! (Total bullshit!)",
+      "words": [
+        {"id": "s02-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s02-1", "hanzi": "放", "pinyin": "fàng", "meaning": "release/let out"},
+        {"id": "s02-2", "hanzi": "狗屁", "pinyin": "gǒupì", "meaning": "dog fart (bullshit)"},
+        {"id": "s02-3", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "不要脸！你怎么好意思？",
+      "pinyin": "Bú yào liǎn! Nǐ zěnme hǎoyìsi?",
+      "translation": "Shameless! How dare you?",
+      "words": [
+        {"id": "s03-0", "hanzi": "不要脸", "pinyin": "bú yào liǎn", "meaning": "shameless"},
+        {"id": "s03-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s03-2", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s03-3", "hanzi": "怎么", "pinyin": "zěnme", "meaning": "how"},
+        {"id": "s03-4", "hanzi": "好意思", "pinyin": "hǎoyìsi", "meaning": "have the nerve"},
+        {"id": "s03-5", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "你算什么东西？",
+      "pinyin": "Nǐ suàn shénme dōngxi?",
+      "translation": "What the hell do you think you are?",
+      "words": [
+        {"id": "s04-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s04-1", "hanzi": "算", "pinyin": "suàn", "meaning": "count as"},
+        {"id": "s04-2", "hanzi": "什么", "pinyin": "shénme", "meaning": "what"},
+        {"id": "s04-3", "hanzi": "东西", "pinyin": "dōngxi", "meaning": "thing (derogatory when used for people)"},
+        {"id": "s04-4", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "去死吧你！",
+      "pinyin": "Qù sǐ ba nǐ!",
+      "translation": "Go to hell!",
+      "words": [
+        {"id": "s05-0", "hanzi": "去死", "pinyin": "qù sǐ", "meaning": "go die"},
+        {"id": "s05-1", "hanzi": "吧", "pinyin": "ba", "meaning": "(particle)"},
+        {"id": "s05-2", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s05-3", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "贱人！离开我的生活！",
+      "pinyin": "Jiànrén! Líkāi wǒ de shēnghuó!",
+      "translation": "Scumbag! Get out of my life!",
+      "words": [
+        {"id": "s06-0", "hanzi": "贱人", "pinyin": "jiànrén", "meaning": "cheap/despicable person"},
+        {"id": "s06-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s06-2", "hanzi": "离开", "pinyin": "líkāi", "meaning": "leave"},
+        {"id": "s06-3", "hanzi": "我的", "pinyin": "wǒ de", "meaning": "my"},
+        {"id": "s06-4", "hanzi": "生活", "pinyin": "shēnghuó", "meaning": "life"},
+        {"id": "s06-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "你脑子有问题吧？真是个废物！",
+      "pinyin": "Nǐ nǎozi yǒu wèntí ba? Zhēn shì gè fèiwù!",
+      "translation": "Something wrong with your brain? You're useless!",
+      "words": [
+        {"id": "s07-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "your"},
+        {"id": "s07-1", "hanzi": "脑子", "pinyin": "nǎozi", "meaning": "brain"},
+        {"id": "s07-2", "hanzi": "有问题", "pinyin": "yǒu wèntí", "meaning": "has a problem"},
+        {"id": "s07-3", "hanzi": "吧", "pinyin": "ba", "meaning": "(right?)"},
+        {"id": "s07-4", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s07-5", "hanzi": "真是", "pinyin": "zhēn shì", "meaning": "really is"},
+        {"id": "s07-6", "hanzi": "个", "pinyin": "gè", "meaning": "(measure word)"},
+        {"id": "s07-7", "hanzi": "废物", "pinyin": "fèiwù", "meaning": "trash/useless person"},
+        {"id": "s07-8", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "闭嘴！我不想听你说话！",
+      "pinyin": "Bì zuǐ! Wǒ bù xiǎng tīng nǐ shuōhuà!",
+      "translation": "Shut up! I don't want to hear you talk!",
+      "words": [
+        {"id": "s08-0", "hanzi": "闭嘴", "pinyin": "bì zuǐ", "meaning": "shut up"},
+        {"id": "s08-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s08-2", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s08-3", "hanzi": "不想", "pinyin": "bù xiǎng", "meaning": "don't want to"},
+        {"id": "s08-4", "hanzi": "听", "pinyin": "tīng", "meaning": "listen to"},
+        {"id": "s08-5", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s08-6", "hanzi": "说话", "pinyin": "shuōhuà", "meaning": "talk"},
+        {"id": "s08-7", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "你欠揍！信不信我打你？",
+      "pinyin": "Nǐ qiàn zòu! Xìn bú xìn wǒ dǎ nǐ?",
+      "translation": "You deserve a beating! Try me!",
+      "words": [
+        {"id": "s09-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s09-1", "hanzi": "欠揍", "pinyin": "qiàn zòu", "meaning": "deserve a beating"},
+        {"id": "s09-2", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s09-3", "hanzi": "信不信", "pinyin": "xìn bú xìn", "meaning": "believe it or not"},
+        {"id": "s09-4", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s09-5", "hanzi": "打你", "pinyin": "dǎ nǐ", "meaning": "hit you"},
+        {"id": "s09-6", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "白眼狼！我对你那么好，你就这样？",
+      "pinyin": "Báiyǎnláng! Wǒ duì nǐ nàme hǎo, nǐ jiù zhèyàng?",
+      "translation": "Ungrateful wretch! I treated you so well and this is how you repay me?",
+      "words": [
+        {"id": "s10-0", "hanzi": "白眼狼", "pinyin": "báiyǎnláng", "meaning": "ungrateful person (white-eyed wolf)"},
+        {"id": "s10-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s10-2", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s10-3", "hanzi": "对你", "pinyin": "duì nǐ", "meaning": "toward you"},
+        {"id": "s10-4", "hanzi": "那么", "pinyin": "nàme", "meaning": "so/that"},
+        {"id": "s10-5", "hanzi": "好", "pinyin": "hǎo", "meaning": "well/good"},
+        {"id": "s10-6", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s10-7", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s10-8", "hanzi": "就", "pinyin": "jiù", "meaning": "just"},
+        {"id": "s10-9", "hanzi": "这样", "pinyin": "zhèyàng", "meaning": "like this"},
+        {"id": "s10-10", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    }
+  ]
+}

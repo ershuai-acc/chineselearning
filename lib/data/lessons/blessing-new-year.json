@@ -1,0 +1,144 @@
+{
+  "id": "blessing-new-year",
+  "title": "新年吉祥话",
+  "titleEn": "New Year Blessings",
+  "description": "Learn the most popular Chinese New Year greetings and blessings.",
+  "source": "祝福的话",
+  "sourceEn": "Words of Blessing",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "恭喜发财！",
+      "pinyin": "Gōngxǐ fācái!",
+      "translation": "Wishing you wealth and prosperity!",
+      "words": [
+        {"id": "s01-0", "hanzi": "恭喜", "pinyin": "gōngxǐ", "meaning": "congratulations"},
+        {"id": "s01-1", "hanzi": "发财", "pinyin": "fācái", "meaning": "get rich"},
+        {"id": "s01-2", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "新年快乐！万事如意！",
+      "pinyin": "Xīnnián kuàilè! Wànshì rúyì!",
+      "translation": "Happy New Year! May everything go as you wish!",
+      "words": [
+        {"id": "s02-0", "hanzi": "新年", "pinyin": "xīnnián", "meaning": "new year"},
+        {"id": "s02-1", "hanzi": "快乐", "pinyin": "kuàilè", "meaning": "happy"},
+        {"id": "s02-2", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s02-3", "hanzi": "万事", "pinyin": "wànshì", "meaning": "all things"},
+        {"id": "s02-4", "hanzi": "如意", "pinyin": "rúyì", "meaning": "as you wish"},
+        {"id": "s02-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "祝你年年有余！",
+      "pinyin": "Zhù nǐ niánnián yǒu yú!",
+      "translation": "Wishing you surplus every year!",
+      "words": [
+        {"id": "s03-0", "hanzi": "祝", "pinyin": "zhù", "meaning": "wish"},
+        {"id": "s03-1", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s03-2", "hanzi": "年年", "pinyin": "niánnián", "meaning": "every year"},
+        {"id": "s03-3", "hanzi": "有余", "pinyin": "yǒu yú", "meaning": "have surplus"},
+        {"id": "s03-4", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "身体健康！工作顺利！",
+      "pinyin": "Shēntǐ jiànkāng! Gōngzuò shùnlì!",
+      "translation": "Good health! Smooth work!",
+      "words": [
+        {"id": "s04-0", "hanzi": "身体", "pinyin": "shēntǐ", "meaning": "body/health"},
+        {"id": "s04-1", "hanzi": "健康", "pinyin": "jiànkāng", "meaning": "healthy"},
+        {"id": "s04-2", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s04-3", "hanzi": "工作", "pinyin": "gōngzuò", "meaning": "work"},
+        {"id": "s04-4", "hanzi": "顺利", "pinyin": "shùnlì", "meaning": "smooth/successful"},
+        {"id": "s04-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "心想事成！大吉大利！",
+      "pinyin": "Xīn xiǎng shì chéng! Dàjí dàlì!",
+      "translation": "May all your wishes come true! Great luck and fortune!",
+      "words": [
+        {"id": "s05-0", "hanzi": "心想事成", "pinyin": "xīn xiǎng shì chéng", "meaning": "wishes come true"},
+        {"id": "s05-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s05-2", "hanzi": "大吉大利", "pinyin": "dàjí dàlì", "meaning": "great luck and profit"},
+        {"id": "s05-3", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "祝你新的一年步步高升！",
+      "pinyin": "Zhù nǐ xīn de yì nián bùbù gāoshēng!",
+      "translation": "Wishing you promotions in the new year!",
+      "words": [
+        {"id": "s06-0", "hanzi": "祝", "pinyin": "zhù", "meaning": "wish"},
+        {"id": "s06-1", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s06-2", "hanzi": "新的", "pinyin": "xīn de", "meaning": "new"},
+        {"id": "s06-3", "hanzi": "一年", "pinyin": "yì nián", "meaning": "one year"},
+        {"id": "s06-4", "hanzi": "步步高升", "pinyin": "bùbù gāoshēng", "meaning": "rise step by step (promotion)"},
+        {"id": "s06-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "红包拿来！",
+      "pinyin": "Hóngbāo ná lái!",
+      "translation": "Give me the red envelope!",
+      "words": [
+        {"id": "s07-0", "hanzi": "红包", "pinyin": "hóngbāo", "meaning": "red envelope (money gift)"},
+        {"id": "s07-1", "hanzi": "拿来", "pinyin": "ná lái", "meaning": "hand it over"},
+        {"id": "s07-2", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "龙马精神！财源滚滚！",
+      "pinyin": "Lóngmǎ jīngshén! Cáiyuán gǔngǔn!",
+      "translation": "Full of energy like a dragon-horse! Money rolling in!",
+      "words": [
+        {"id": "s08-0", "hanzi": "龙马精神", "pinyin": "lóngmǎ jīngshén", "meaning": "full of vigor"},
+        {"id": "s08-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s08-2", "hanzi": "财源", "pinyin": "cáiyuán", "meaning": "source of wealth"},
+        {"id": "s08-3", "hanzi": "滚滚", "pinyin": "gǔngǔn", "meaning": "rolling in"},
+        {"id": "s08-4", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "过年好！给您拜年了！",
+      "pinyin": "Guònián hǎo! Gěi nín bàinián le!",
+      "translation": "Happy New Year! Paying you New Year respects!",
+      "words": [
+        {"id": "s09-0", "hanzi": "过年", "pinyin": "guònián", "meaning": "celebrate New Year"},
+        {"id": "s09-1", "hanzi": "好", "pinyin": "hǎo", "meaning": "good"},
+        {"id": "s09-2", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s09-3", "hanzi": "给", "pinyin": "gěi", "meaning": "to/for"},
+        {"id": "s09-4", "hanzi": "您", "pinyin": "nín", "meaning": "you (respectful)"},
+        {"id": "s09-5", "hanzi": "拜年", "pinyin": "bàinián", "meaning": "pay New Year visit"},
+        {"id": "s09-6", "hanzi": "了", "pinyin": "le", "meaning": "(completed action)"},
+        {"id": "s09-7", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "祝全家幸福，阖家欢乐！",
+      "pinyin": "Zhù quánjiā xìngfú, héjiā huānlè!",
+      "translation": "Wishing the whole family happiness and joy!",
+      "words": [
+        {"id": "s10-0", "hanzi": "祝", "pinyin": "zhù", "meaning": "wish"},
+        {"id": "s10-1", "hanzi": "全家", "pinyin": "quánjiā", "meaning": "whole family"},
+        {"id": "s10-2", "hanzi": "幸福", "pinyin": "xìngfú", "meaning": "happiness"},
+        {"id": "s10-3", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s10-4", "hanzi": "阖家", "pinyin": "héjiā", "meaning": "whole family (formal)"},
+        {"id": "s10-5", "hanzi": "欢乐", "pinyin": "huānlè", "meaning": "joy"},
+        {"id": "s10-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    }
+  ]
+}

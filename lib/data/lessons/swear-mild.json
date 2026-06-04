@@ -1,0 +1,152 @@
+{
+  "id": "swear-mild",
+  "title": "日常吐槽",
+  "titleEn": "Mild Complaints & Roasts",
+  "description": "Casual insults and complaints you hear every day in China — harmless but expressive.",
+  "source": "骂人的话",
+  "sourceEn": "Swear Words",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "你傻不傻啊？",
+      "pinyin": "Nǐ shǎ bù shǎ a?",
+      "translation": "Are you stupid or what?",
+      "words": [
+        {"id": "s01-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s01-1", "hanzi": "傻不傻", "pinyin": "shǎ bù shǎ", "meaning": "stupid or not"},
+        {"id": "s01-2", "hanzi": "啊", "pinyin": "a", "meaning": "(emphasis particle)"},
+        {"id": "s01-3", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "神经病！离我远点！",
+      "pinyin": "Shénjīngbìng! Lí wǒ yuǎn diǎn!",
+      "translation": "You're crazy! Stay away from me!",
+      "words": [
+        {"id": "s02-0", "hanzi": "神经病", "pinyin": "shénjīngbìng", "meaning": "crazy person/psycho"},
+        {"id": "s02-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s02-2", "hanzi": "离", "pinyin": "lí", "meaning": "away from"},
+        {"id": "s02-3", "hanzi": "我", "pinyin": "wǒ", "meaning": "me"},
+        {"id": "s02-4", "hanzi": "远点", "pinyin": "yuǎn diǎn", "meaning": "further away"},
+        {"id": "s02-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "真无语，你有病吧？",
+      "pinyin": "Zhēn wúyǔ, nǐ yǒu bìng ba?",
+      "translation": "I'm speechless — are you sick in the head?",
+      "words": [
+        {"id": "s03-0", "hanzi": "真", "pinyin": "zhēn", "meaning": "really"},
+        {"id": "s03-1", "hanzi": "无语", "pinyin": "wúyǔ", "meaning": "speechless"},
+        {"id": "s03-2", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s03-3", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s03-4", "hanzi": "有病", "pinyin": "yǒu bìng", "meaning": "mentally ill (insult)"},
+        {"id": "s03-5", "hanzi": "吧", "pinyin": "ba", "meaning": "(right?)"},
+        {"id": "s03-6", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "脑子进水了吧？",
+      "pinyin": "Nǎozi jìn shuǐ le ba?",
+      "translation": "Did water get into your brain?",
+      "words": [
+        {"id": "s04-0", "hanzi": "脑子", "pinyin": "nǎozi", "meaning": "brain"},
+        {"id": "s04-1", "hanzi": "进水", "pinyin": "jìn shuǐ", "meaning": "water got in"},
+        {"id": "s04-2", "hanzi": "了", "pinyin": "le", "meaning": "(completed)"},
+        {"id": "s04-3", "hanzi": "吧", "pinyin": "ba", "meaning": "(right?)"},
+        {"id": "s04-4", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "你在搞什么鬼？",
+      "pinyin": "Nǐ zài gǎo shénme guǐ?",
+      "translation": "What the hell are you doing?",
+      "words": [
+        {"id": "s05-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s05-1", "hanzi": "在", "pinyin": "zài", "meaning": "(doing)"},
+        {"id": "s05-2", "hanzi": "搞", "pinyin": "gǎo", "meaning": "do/mess with"},
+        {"id": "s05-3", "hanzi": "什么鬼", "pinyin": "shénme guǐ", "meaning": "what the hell"},
+        {"id": "s05-4", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "关你什么事？少管闲事！",
+      "pinyin": "Guān nǐ shénme shì? Shǎo guǎn xiánshì!",
+      "translation": "None of your business! Stop meddling!",
+      "words": [
+        {"id": "s06-0", "hanzi": "关", "pinyin": "guān", "meaning": "concern"},
+        {"id": "s06-1", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s06-2", "hanzi": "什么事", "pinyin": "shénme shì", "meaning": "what business"},
+        {"id": "s06-3", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s06-4", "hanzi": "少", "pinyin": "shǎo", "meaning": "stop/less"},
+        {"id": "s06-5", "hanzi": "管闲事", "pinyin": "guǎn xiánshì", "meaning": "meddle/mind others' business"},
+        {"id": "s06-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "你烦不烦啊？别吵了！",
+      "pinyin": "Nǐ fán bù fán a? Bié chǎo le!",
+      "translation": "Are you annoying or what? Shut up!",
+      "words": [
+        {"id": "s07-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s07-1", "hanzi": "烦不烦", "pinyin": "fán bù fán", "meaning": "annoying or not"},
+        {"id": "s07-2", "hanzi": "啊", "pinyin": "a", "meaning": "(particle)"},
+        {"id": "s07-3", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s07-4", "hanzi": "别", "pinyin": "bié", "meaning": "don't"},
+        {"id": "s07-5", "hanzi": "吵了", "pinyin": "chǎo le", "meaning": "be noisy"},
+        {"id": "s07-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "你是不是眼瞎了？看路！",
+      "pinyin": "Nǐ shì bú shì yǎn xiā le? Kàn lù!",
+      "translation": "Are you blind? Watch where you're going!",
+      "words": [
+        {"id": "s08-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s08-1", "hanzi": "是不是", "pinyin": "shì bú shì", "meaning": "are you"},
+        {"id": "s08-2", "hanzi": "眼瞎了", "pinyin": "yǎn xiā le", "meaning": "gone blind"},
+        {"id": "s08-3", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s08-4", "hanzi": "看路", "pinyin": "kàn lù", "meaning": "watch the road"},
+        {"id": "s08-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "笨蛋！这么简单都不会！",
+      "pinyin": "Bèndàn! Zhème jiǎndān dōu bú huì!",
+      "translation": "Idiot! You can't even do something this simple!",
+      "words": [
+        {"id": "s09-0", "hanzi": "笨蛋", "pinyin": "bèndàn", "meaning": "idiot/dummy"},
+        {"id": "s09-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s09-2", "hanzi": "这么", "pinyin": "zhème", "meaning": "this/so"},
+        {"id": "s09-3", "hanzi": "简单", "pinyin": "jiǎndān", "meaning": "simple"},
+        {"id": "s09-4", "hanzi": "都", "pinyin": "dōu", "meaning": "even"},
+        {"id": "s09-5", "hanzi": "不会", "pinyin": "bú huì", "meaning": "can't do"},
+        {"id": "s09-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "算了算了，我懒得跟你说。",
+      "pinyin": "Suàn le suàn le, wǒ lǎn de gēn nǐ shuō.",
+      "translation": "Forget it — I can't be bothered talking to you.",
+      "words": [
+        {"id": "s10-0", "hanzi": "算了算了", "pinyin": "suàn le suàn le", "meaning": "forget it, forget it"},
+        {"id": "s10-1", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s10-2", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s10-3", "hanzi": "懒得", "pinyin": "lǎn de", "meaning": "can't be bothered"},
+        {"id": "s10-4", "hanzi": "跟你", "pinyin": "gēn nǐ", "meaning": "with you"},
+        {"id": "s10-5", "hanzi": "说", "pinyin": "shuō", "meaning": "talk"},
+        {"id": "s10-6", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    }
+  ]
+}

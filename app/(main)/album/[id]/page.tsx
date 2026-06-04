@@ -86,7 +86,7 @@ export default function AlbumDetailPage() {
   }
 
   const isPinyin = albumId.startsWith('pinyin-');
-  const isAncient = albumId.startsWith('ancient-');
+  const isShadowReading = albumId.startsWith('ancient-') || albumId.startsWith('basics-');
 
   return (
     <div className="min-h-[100dvh] bg-duo-snow pb-24">
@@ -109,7 +109,7 @@ export default function AlbumDetailPage() {
         </div>
 
         {lessons.length > 0 ? (
-          isAncient ? (
+          isShadowReading ? (
             /* Ancient stories: show as cards with description */
             <div className="space-y-4">
               {lessons.map((lesson) => (

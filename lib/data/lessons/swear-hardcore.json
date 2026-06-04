@@ -1,0 +1,155 @@
+{
+  "id": "swear-hardcore",
+  "title": "国骂经典",
+  "titleEn": "Classic Chinese Profanity",
+  "description": "⚠️ Cultural reference only — the heavy-duty swear words you'll hear in movies, online, and on the street. Know them, but use wisely.",
+  "source": "骂人的话",
+  "sourceEn": "Swear Words",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "他妈的！谁干的？",
+      "pinyin": "Tā mā de! Shéi gàn de?",
+      "translation": "Damn it! Who did this?",
+      "words": [
+        {"id": "s01-0", "hanzi": "他妈的", "pinyin": "tā mā de", "meaning": "damn it (lit. his mother's)"},
+        {"id": "s01-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s01-2", "hanzi": "谁", "pinyin": "shéi", "meaning": "who"},
+        {"id": "s01-3", "hanzi": "干的", "pinyin": "gàn de", "meaning": "did it"},
+        {"id": "s01-4", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "卧槽！这也太离谱了吧？",
+      "pinyin": "Wòcáo! Zhè yě tài lípǔ le ba?",
+      "translation": "Holy sh*t! This is too outrageous!",
+      "words": [
+        {"id": "s02-0", "hanzi": "卧槽", "pinyin": "wòcáo", "meaning": "holy sh*t/WTF"},
+        {"id": "s02-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s02-2", "hanzi": "这", "pinyin": "zhè", "meaning": "this"},
+        {"id": "s02-3", "hanzi": "也", "pinyin": "yě", "meaning": "also/even"},
+        {"id": "s02-4", "hanzi": "太", "pinyin": "tài", "meaning": "too"},
+        {"id": "s02-5", "hanzi": "离谱", "pinyin": "lípǔ", "meaning": "outrageous/absurd"},
+        {"id": "s02-6", "hanzi": "了吧", "pinyin": "le ba", "meaning": "(emphasis)"},
+        {"id": "s02-7", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "傻逼！你说什么呢？",
+      "pinyin": "Shǎbī! Nǐ shuō shénme ne?",
+      "translation": "F*cking idiot! What are you saying?",
+      "words": [
+        {"id": "s03-0", "hanzi": "傻逼", "pinyin": "shǎbī", "meaning": "f*cking idiot (very vulgar)"},
+        {"id": "s03-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s03-2", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s03-3", "hanzi": "说", "pinyin": "shuō", "meaning": "say"},
+        {"id": "s03-4", "hanzi": "什么", "pinyin": "shénme", "meaning": "what"},
+        {"id": "s03-5", "hanzi": "呢", "pinyin": "ne", "meaning": "(question particle)"},
+        {"id": "s03-6", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "牛逼！这个人太厉害了！",
+      "pinyin": "Niúbī! Zhège rén tài lìhai le!",
+      "translation": "Bad*ss! This person is amazing!",
+      "words": [
+        {"id": "s04-0", "hanzi": "牛逼", "pinyin": "niúbī", "meaning": "bad*ss/awesome (vulgar praise)"},
+        {"id": "s04-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s04-2", "hanzi": "这个人", "pinyin": "zhège rén", "meaning": "this person"},
+        {"id": "s04-3", "hanzi": "太", "pinyin": "tài", "meaning": "too/so"},
+        {"id": "s04-4", "hanzi": "厉害", "pinyin": "lìhai", "meaning": "amazing/fierce"},
+        {"id": "s04-5", "hanzi": "了", "pinyin": "le", "meaning": "(emphasis)"},
+        {"id": "s04-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "草泥马！你骗我！",
+      "pinyin": "Cǎonímǎ! Nǐ piàn wǒ!",
+      "translation": "F*ck you! You lied to me!",
+      "words": [
+        {"id": "s05-0", "hanzi": "草泥马", "pinyin": "cǎonímǎ", "meaning": "f*ck (disguised as 'grass mud horse')"},
+        {"id": "s05-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s05-2", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s05-3", "hanzi": "骗", "pinyin": "piàn", "meaning": "lied to/cheated"},
+        {"id": "s05-4", "hanzi": "我", "pinyin": "wǒ", "meaning": "me"},
+        {"id": "s05-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "操你大爷的！别碰我！",
+      "pinyin": "Cào nǐ dàyé de! Bié pèng wǒ!",
+      "translation": "F*ck off! Don't touch me!",
+      "words": [
+        {"id": "s06-0", "hanzi": "操你大爷的", "pinyin": "cào nǐ dàyé de", "meaning": "f*ck you/your uncle (very vulgar)"},
+        {"id": "s06-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s06-2", "hanzi": "别", "pinyin": "bié", "meaning": "don't"},
+        {"id": "s06-3", "hanzi": "碰", "pinyin": "pèng", "meaning": "touch"},
+        {"id": "s06-4", "hanzi": "我", "pinyin": "wǒ", "meaning": "me"},
+        {"id": "s06-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "妈的！手机掉水里了！",
+      "pinyin": "Mā de! Shǒujī diào shuǐ lǐ le!",
+      "translation": "Sh*t! My phone fell in the water!",
+      "words": [
+        {"id": "s07-0", "hanzi": "妈的", "pinyin": "mā de", "meaning": "sh*t/damn (lit. mother's)"},
+        {"id": "s07-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s07-2", "hanzi": "手机", "pinyin": "shǒujī", "meaning": "phone"},
+        {"id": "s07-3", "hanzi": "掉", "pinyin": "diào", "meaning": "fell/dropped"},
+        {"id": "s07-4", "hanzi": "水里", "pinyin": "shuǐ lǐ", "meaning": "in the water"},
+        {"id": "s07-5", "hanzi": "了", "pinyin": "le", "meaning": "(completed)"},
+        {"id": "s07-6", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "我靠！这是真的假的？",
+      "pinyin": "Wǒ kào! Zhè shì zhēn de jiǎ de?",
+      "translation": "WTF! Is this real or fake?",
+      "words": [
+        {"id": "s08-0", "hanzi": "我靠", "pinyin": "wǒ kào", "meaning": "WTF/oh my god (mild profanity)"},
+        {"id": "s08-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s08-2", "hanzi": "这", "pinyin": "zhè", "meaning": "this"},
+        {"id": "s08-3", "hanzi": "是", "pinyin": "shì", "meaning": "is"},
+        {"id": "s08-4", "hanzi": "真的", "pinyin": "zhēn de", "meaning": "real"},
+        {"id": "s08-5", "hanzi": "假的", "pinyin": "jiǎ de", "meaning": "fake"},
+        {"id": "s08-6", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "你他妈是不是活够了？",
+      "pinyin": "Nǐ tā mā shì bú shì huó gòu le?",
+      "translation": "Are you f*cking tired of living?",
+      "words": [
+        {"id": "s09-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s09-1", "hanzi": "他妈", "pinyin": "tā mā", "meaning": "f*cking (intensifier)"},
+        {"id": "s09-2", "hanzi": "是不是", "pinyin": "shì bú shì", "meaning": "are you"},
+        {"id": "s09-3", "hanzi": "活够了", "pinyin": "huó gòu le", "meaning": "lived enough/tired of living"},
+        {"id": "s09-4", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "狗东西！给老子等着！",
+      "pinyin": "Gǒu dōngxi! Gěi lǎozi děng zhe!",
+      "translation": "You dog! Just you wait!",
+      "words": [
+        {"id": "s10-0", "hanzi": "狗东西", "pinyin": "gǒu dōngxi", "meaning": "dog thing (son of a b*tch)"},
+        {"id": "s10-1", "hanzi": "！", "pinyin": "!", "meaning": ""},
+        {"id": "s10-2", "hanzi": "给", "pinyin": "gěi", "meaning": "for"},
+        {"id": "s10-3", "hanzi": "老子", "pinyin": "lǎozi", "meaning": "me/I (aggressive/arrogant)"},
+        {"id": "s10-4", "hanzi": "等着", "pinyin": "děng zhe", "meaning": "wait/just you wait"},
+        {"id": "s10-5", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    }
+  ]
+}

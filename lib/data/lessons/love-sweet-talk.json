@@ -1,0 +1,159 @@
+{
+  "id": "love-sweet-talk",
+  "title": "热恋撒娇",
+  "titleEn": "Sweet Talk & Being Cute",
+  "description": "Pet names, sweet nothings, and the art of 撒娇 (acting cute) in Chinese relationships.",
+  "source": "恋人的话",
+  "sourceEn": "Lover's Words",
+  "difficulty": "HSK 3",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "宝贝，我想你了。",
+      "pinyin": "Bǎobèi, wǒ xiǎng nǐ le.",
+      "translation": "Baby, I miss you.",
+      "words": [
+        {"id": "s01-0", "hanzi": "宝贝", "pinyin": "bǎobèi", "meaning": "baby/darling"},
+        {"id": "s01-1", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s01-2", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s01-3", "hanzi": "想", "pinyin": "xiǎng", "meaning": "miss"},
+        {"id": "s01-4", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s01-5", "hanzi": "了", "pinyin": "le", "meaning": "(change of state)"},
+        {"id": "s01-6", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "你是我的小可爱。",
+      "pinyin": "Nǐ shì wǒ de xiǎo kě'ài.",
+      "translation": "You're my little cutie.",
+      "words": [
+        {"id": "s02-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s02-1", "hanzi": "是", "pinyin": "shì", "meaning": "are"},
+        {"id": "s02-2", "hanzi": "我的", "pinyin": "wǒ de", "meaning": "my"},
+        {"id": "s02-3", "hanzi": "小可爱", "pinyin": "xiǎo kě'ài", "meaning": "little cutie"},
+        {"id": "s02-4", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "亲一个嘛！",
+      "pinyin": "Qīn yí gè ma!",
+      "translation": "Give me a kiss!",
+      "words": [
+        {"id": "s03-0", "hanzi": "亲", "pinyin": "qīn", "meaning": "kiss"},
+        {"id": "s03-1", "hanzi": "一个", "pinyin": "yí gè", "meaning": "one"},
+        {"id": "s03-2", "hanzi": "嘛", "pinyin": "ma", "meaning": "(coaxing particle)"},
+        {"id": "s03-3", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "老公，你怎么这么好看？",
+      "pinyin": "Lǎogōng, nǐ zěnme zhème hǎokàn?",
+      "translation": "Hubby, how are you so handsome?",
+      "words": [
+        {"id": "s04-0", "hanzi": "老公", "pinyin": "lǎogōng", "meaning": "hubby/husband"},
+        {"id": "s04-1", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s04-2", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s04-3", "hanzi": "怎么", "pinyin": "zěnme", "meaning": "how"},
+        {"id": "s04-4", "hanzi": "这么", "pinyin": "zhème", "meaning": "so/this much"},
+        {"id": "s04-5", "hanzi": "好看", "pinyin": "hǎokàn", "meaning": "good-looking"},
+        {"id": "s04-6", "hanzi": "？", "pinyin": "?", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "我不嘛，你抱抱我。",
+      "pinyin": "Wǒ bù ma, nǐ bàobào wǒ.",
+      "translation": "I don't wanna — give me a hug.",
+      "words": [
+        {"id": "s05-0", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s05-1", "hanzi": "不嘛", "pinyin": "bù ma", "meaning": "don't wanna (whiny)"},
+        {"id": "s05-2", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s05-3", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s05-4", "hanzi": "抱抱", "pinyin": "bàobào", "meaning": "give a hug"},
+        {"id": "s05-5", "hanzi": "我", "pinyin": "wǒ", "meaning": "me"},
+        {"id": "s05-6", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "晚安，梦里见。",
+      "pinyin": "Wǎn'ān, mèng lǐ jiàn.",
+      "translation": "Good night — see you in my dreams.",
+      "words": [
+        {"id": "s06-0", "hanzi": "晚安", "pinyin": "wǎn'ān", "meaning": "good night"},
+        {"id": "s06-1", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s06-2", "hanzi": "梦里", "pinyin": "mèng lǐ", "meaning": "in dreams"},
+        {"id": "s06-3", "hanzi": "见", "pinyin": "jiàn", "meaning": "see/meet"},
+        {"id": "s06-4", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "你今天辛苦了，我给你按摩。",
+      "pinyin": "Nǐ jīntiān xīnkǔ le, wǒ gěi nǐ ànmó.",
+      "translation": "You worked hard today — let me give you a massage.",
+      "words": [
+        {"id": "s07-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s07-1", "hanzi": "今天", "pinyin": "jīntiān", "meaning": "today"},
+        {"id": "s07-2", "hanzi": "辛苦了", "pinyin": "xīnkǔ le", "meaning": "worked hard"},
+        {"id": "s07-3", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s07-4", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s07-5", "hanzi": "给你", "pinyin": "gěi nǐ", "meaning": "give you"},
+        {"id": "s07-6", "hanzi": "按摩", "pinyin": "ànmó", "meaning": "massage"},
+        {"id": "s07-7", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "你是不是不爱我了？哼！",
+      "pinyin": "Nǐ shì bú shì bú ài wǒ le? Hēng!",
+      "translation": "Do you not love me anymore? Hmph!",
+      "words": [
+        {"id": "s08-0", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s08-1", "hanzi": "是不是", "pinyin": "shì bú shì", "meaning": "is it that"},
+        {"id": "s08-2", "hanzi": "不", "pinyin": "bú", "meaning": "not"},
+        {"id": "s08-3", "hanzi": "爱", "pinyin": "ài", "meaning": "love"},
+        {"id": "s08-4", "hanzi": "我", "pinyin": "wǒ", "meaning": "me"},
+        {"id": "s08-5", "hanzi": "了", "pinyin": "le", "meaning": "anymore"},
+        {"id": "s08-6", "hanzi": "？", "pinyin": "?", "meaning": ""},
+        {"id": "s08-7", "hanzi": "哼", "pinyin": "hēng", "meaning": "hmph!"},
+        {"id": "s08-8", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "我就要吃冰淇淋，你去买！",
+      "pinyin": "Wǒ jiù yào chī bīngqílín, nǐ qù mǎi!",
+      "translation": "I want ice cream — you go buy it!",
+      "words": [
+        {"id": "s09-0", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s09-1", "hanzi": "就要", "pinyin": "jiù yào", "meaning": "insist on"},
+        {"id": "s09-2", "hanzi": "吃", "pinyin": "chī", "meaning": "eat"},
+        {"id": "s09-3", "hanzi": "冰淇淋", "pinyin": "bīngqílín", "meaning": "ice cream"},
+        {"id": "s09-4", "hanzi": "，", "pinyin": ",", "meaning": ""},
+        {"id": "s09-5", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s09-6", "hanzi": "去", "pinyin": "qù", "meaning": "go"},
+        {"id": "s09-7", "hanzi": "买", "pinyin": "mǎi", "meaning": "buy"},
+        {"id": "s09-8", "hanzi": "！", "pinyin": "!", "meaning": ""}
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "我全世界最喜欢你了。",
+      "pinyin": "Wǒ quán shìjiè zuì xǐhuan nǐ le.",
+      "translation": "You're my favorite person in the whole world.",
+      "words": [
+        {"id": "s10-0", "hanzi": "我", "pinyin": "wǒ", "meaning": "I"},
+        {"id": "s10-1", "hanzi": "全世界", "pinyin": "quán shìjiè", "meaning": "the whole world"},
+        {"id": "s10-2", "hanzi": "最", "pinyin": "zuì", "meaning": "most"},
+        {"id": "s10-3", "hanzi": "喜欢", "pinyin": "xǐhuan", "meaning": "like/love"},
+        {"id": "s10-4", "hanzi": "你", "pinyin": "nǐ", "meaning": "you"},
+        {"id": "s10-5", "hanzi": "了", "pinyin": "le", "meaning": "(emphasis)"},
+        {"id": "s10-6", "hanzi": "。", "pinyin": ".", "meaning": ""}
+      ]
+    }
+  ]
+}
