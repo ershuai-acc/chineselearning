@@ -30,6 +30,19 @@ next-env.d.ts
 .vscode/
 .idea/
 
+# Local app/runtime caches
+.piebox/
+.piebox-runtime/
+
+# iOS/Xcode generated files
+ios/DerivedData/
+ios/App/build/
+ios/App/CapApp-SPM/.build/
+ios/App/CapApp-SPM/.swiftpm/
+ios/App/App.xcodeproj/xcuserdata/
+ios/App/App.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+
 # Prisma
 /prisma/data.db
 .pieconfig/

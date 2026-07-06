@@ -3,7 +3,8 @@
 import { useState, useMemo, useEffect } from 'react';
 import { Volume2, SkipForward } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { WordTooltip } from '../WordTooltip';
+import { speak } from '@/lib/tts';
+import { pickStable, stableShuffle } from '@/lib/stable-shuffle';
 
 interface Word { id: string; hanzi: string; pinyin: string; meaning?: string; }
 interface Sentence { id: string; text: string; pinyin: string; translation: string; words: Word[]; }
@@ -29,13 +30,9 @@ export function ListenChoose({ sentence, allSentences, onComplete, onSkip }: Pro
 
   // Pick a random target word
   const target = useMemo(() => {
-    if (!mounted) {
-      const pool = contentWords.length > 0 ? contentWords : sentence.words.filter(w => !/^[，。！？：、；""''（）]$/.test(w.hanzi));
-      return pool[0];
-    }
     const pool = contentWords.length > 0 ? contentWords : sentence.words.filter(w => !/^[，。！？：、；""''（）]$/.test(w.hanzi));
-    return pool[Math.floor(Math.random() * pool.length)];
-  }, [contentWords, sentence, mounted]);
+    return pickStable(pool, `${sentence.id}:listen-target`);
+  }, [contentWords, sentence]);
 
   // Generate options
   const options = useMemo(() => {
@@ -54,7 +51,7 @@ export function ListenChoose({ sentence, allSentences, onComplete, onSkip }: Pro
       if (distractors.length >= 3) break;
     }
 
-    return [target, ...distractors].sort(() => Math.random() - 0.5);
+    return stableShuffle([target, ...distractors], `${sentence.id}:listen-options:${target.id}`);
   }, [target, allSentences, mounted]);
 
   // Auto-play target on mount
@@ -66,10 +63,7 @@ export function ListenChoose({ sentence, allSentences, onComplete, onSkip }: Pro
 
   const playWord = (text: string) => {
     if (typeof window === 'undefined') return;
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'zh-CN';
-    u.rate = 0.75;
-    speechSynthesis.speak(u);
+    speak({ text, lang: 'zh-CN', rate: 0.75 });
   };
 
   const handleSelect = (word: Word) => {
@@ -83,7 +77,7 @@ export function ListenChoose({ sentence, allSentences, onComplete, onSkip }: Pro
   }
 
   return (
-    <div className="flex flex-col flex-1">
+    <div className="flex min-h-full flex-col">
       {/* Prompt */}
       <div className="bg-white rounded-2xl border-2 border-b-4 border-duo-swan p-6 mb-5 text-center">
         <p className="text-sm text-duo-hare font-bold mb-4">What word do you hear?</p>
@@ -120,7 +114,7 @@ export function ListenChoose({ sentence, allSentences, onComplete, onSkip }: Pro
             >
               <span className="text-xl mb-1">{word.hanzi}</span>
               <span className="text-[11px] text-duo-macaw">{word.pinyin}</span>
-              {feedback && word.meaning && (
+              {feedback === 'wrong' && word.meaning && (
                 <span className="text-[10px] text-duo-wolf mt-1">{word.meaning}</span>
               )}
             </button>
@@ -130,13 +124,12 @@ export function ListenChoose({ sentence, allSentences, onComplete, onSkip }: Pro
 
       {/* Feedback */}
       {feedback === 'correct' && (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-duo-green/10 border-2 border-duo-green rounded-xl p-3 text-center mb-4">
-          <p className="font-extrabold text-duo-green-dark">✓ Correct! — {target.hanzi} ({target.pinyin})</p>
-          {target.meaning && <p className="text-sm text-duo-wolf mt-1">{target.meaning}</p>}
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="px-2 py-1 text-center mb-4">
+          <p className="font-extrabold text-duo-green-dark">Correct</p>
         </motion.div>
       )}
       {feedback === 'wrong' && (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-duo-cardinal/10 border-2 border-duo-cardinal rounded-xl p-3 text-center mb-4">
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="px-2 py-1 text-center mb-4">
           <p className="font-bold text-duo-cardinal">✗ The answer is: <span className="text-duo-eel">{target.hanzi}</span> ({target.pinyin})</p>
           {target.meaning && <p className="text-sm text-duo-wolf mt-1">{target.meaning}</p>}
         </motion.div>
@@ -145,7 +138,7 @@ export function ListenChoose({ sentence, allSentences, onComplete, onSkip }: Pro
       <div className="flex-1" />
 
       {/* Bottom */}
-      <div className="pb-6">
+      <div className="sticky bottom-0 bg-[#F2F2F7] pt-2 pb-[max(var(--sab),1rem)]">
         {feedback ? (
           <button onClick={onComplete} className="w-full py-4 rounded-xl bg-duo-green border-b-4 border-duo-green-dark text-white font-extrabold text-lg active:border-b-2 transition-all">
             Continue

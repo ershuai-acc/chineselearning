@@ -1,9 +1,10 @@
 'use client';
 
 import { useState, useMemo, useEffect } from 'react';
-import { SkipForward } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { WordTooltip } from '../WordTooltip';
+import { speak } from '@/lib/tts';
+import { stableShuffle } from '@/lib/stable-shuffle';
 
 interface Word { id: string; hanzi: string; pinyin: string; meaning?: string; }
 interface Sentence { id: string; text: string; pinyin: string; translation: string; words: Word[]; }
@@ -42,7 +43,7 @@ export function TranslateSentence({ sentence, allSentences, onComplete, onSkip }
       }
       if (distractors.length >= 3) break;
     }
-    return [...contentWords, ...distractors].sort(() => Math.random() - 0.5);
+    return stableShuffle([...contentWords, ...distractors], `${sentence.id}:translate`);
   }, [sentence, allSentences, contentWords, mounted]);
 
   const handleOptionClick = (word: Word) => {
@@ -63,10 +64,7 @@ export function TranslateSentence({ sentence, allSentences, onComplete, onSkip }
 
   const playWord = (text: string) => {
     if (typeof window === 'undefined') return;
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'zh-CN';
-    u.rate = 0.8;
-    speechSynthesis.speak(u);
+    speak({ text, lang: 'zh-CN', rate: 0.8 });
   };
 
   const isOptionUsed = (word: Word) => selected.some(w => w.id === word.id);
@@ -76,17 +74,17 @@ export function TranslateSentence({ sentence, allSentences, onComplete, onSkip }
   }
 
   return (
-    <div className="flex flex-col flex-1">
+    <div className="flex min-h-full flex-col">
       {/* English prompt */}
-      <div className="bg-white rounded-2xl border-2 border-b-4 border-duo-swan p-5 mb-4 text-center">
-        <p className="text-sm text-duo-hare font-bold mb-2">Translate to Chinese:</p>
-        <p className="text-lg font-bold text-duo-eel">{sentence.translation}</p>
+      <div className="bg-ios-surface rounded-ios-xl shadow-ios p-5 mb-3 text-center">
+        <p className="text-xs text-ios-gray font-semibold mb-2 uppercase tracking-wide">Translate</p>
+        <p className="text-base font-semibold text-ios-dark">{sentence.translation}</p>
       </div>
 
       {/* Selected words (answer area) */}
-      <div className="min-h-[60px] bg-duo-polar rounded-xl border-2 border-dashed border-duo-swan p-3 mb-4 flex flex-wrap gap-2 items-center justify-center">
+      <div className="min-h-[56px] bg-ios-bg rounded-ios-xl border border-dashed border-ios-sep p-3 mb-3 flex flex-wrap gap-2 items-center justify-center">
         {selected.length === 0 && (
-          <span className="text-duo-hare text-sm">Tap words below to build the sentence</span>
+          <span className="text-ios-light text-sm">Tap words to build the sentence</span>
         )}
         {selected.map((word, idx) => (
           <motion.button
@@ -94,10 +92,10 @@ export function TranslateSentence({ sentence, allSentences, onComplete, onSkip }
             initial={{ scale: 0.8 }}
             animate={{ scale: 1 }}
             onClick={() => handleOptionClick(word)}
-            className={`px-3 py-1.5 rounded-lg border-2 border-b-4 font-bold text-sm transition-all ${
-              feedback === 'wrong' ? 'border-duo-cardinal bg-duo-cardinal/10 text-duo-cardinal'
-              : feedback === 'correct' ? 'border-duo-green bg-duo-green/10 text-duo-green-dark'
-              : 'border-duo-macaw bg-duo-macaw/10 text-duo-eel'
+            className={`px-3 py-1.5 rounded-lg font-semibold text-sm transition-all ${
+              feedback === 'wrong' ? 'bg-red-50 text-ios-red'
+              : feedback === 'correct' ? 'bg-duo-green/10 text-duo-green-dark'
+              : 'bg-ios-surface text-ios-dark'
             }`}
           >
             <span className="text-[10px] text-duo-macaw block">{word.pinyin}</span>
@@ -114,10 +112,10 @@ export function TranslateSentence({ sentence, allSentences, onComplete, onSkip }
               <button
                 onClick={(e) => { e.stopPropagation(); handleOptionClick(word); playWord(word.hanzi); }}
                 disabled={isOptionUsed(word) || feedback !== null}
-                className={`px-3 py-2 rounded-lg border-2 border-b-4 font-bold text-sm transition-all ${
+                className={`px-3 py-2 rounded-lg font-semibold text-sm transition-all ${
                   isOptionUsed(word)
-                    ? 'border-transparent bg-duo-polar text-duo-polar'
-                    : 'border-duo-swan bg-white text-duo-eel hover:border-duo-macaw active:border-b-2'
+                    ? 'opacity-0 pointer-events-none'
+                    : 'bg-ios-surface shadow-ios text-ios-dark active:bg-duo-green/10 active:text-duo-green-dark'
                 }`}
               >
                 <span className="text-[10px] text-duo-macaw block">{word.pinyin}</span>
@@ -130,37 +128,39 @@ export function TranslateSentence({ sentence, allSentences, onComplete, onSkip }
 
       {/* Feedback */}
       {feedback === 'correct' && (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-duo-green/10 border-2 border-duo-green rounded-xl p-3 text-center mb-4">
-          <p className="font-extrabold text-duo-green-dark">✓ Correct!</p>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="px-2 py-1 text-center mb-3">
+          <p className="font-semibold text-duo-green-dark">Correct</p>
         </motion.div>
       )}
       {feedback === 'wrong' && (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-duo-cardinal/10 border-2 border-duo-cardinal rounded-xl p-3 text-center mb-4">
-          <p className="font-extrabold text-duo-cardinal mb-1">✗ Not quite</p>
-          <p className="text-sm text-duo-eel">{contentWords.map(w => w.hanzi).join('')}</p>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="px-2 py-1 text-center mb-3">
+          <p className="font-semibold text-ios-red mb-1">Not quite</p>
+          <p className="text-sm text-ios-dark">{contentWords.map(w => w.hanzi).join('')}</p>
         </motion.div>
       )}
 
-      <div className="flex-1" />
-
       {/* Bottom buttons */}
-      <div className="pb-6">
+      <div className="sticky bottom-0 mt-auto bg-[#F2F2F7] pt-2 pb-[max(var(--sab),1rem)]">
         {feedback ? (
-          <button onClick={onComplete} className="w-full py-4 rounded-xl bg-duo-green border-b-4 border-duo-green-dark text-white font-extrabold text-lg active:border-b-2 transition-all">
+          <button onClick={onComplete} className="w-full py-3.5 rounded-ios-xl bg-duo-green text-white font-semibold text-base shadow-ios active:bg-duo-green-dark active:scale-[0.98] transition-all">
             Continue
           </button>
         ) : (
           <div className="flex gap-3">
-            <button onClick={onSkip} className="px-5 py-3 rounded-xl border-2 border-duo-swan text-duo-hare font-bold flex items-center gap-1 hover:border-duo-wolf">
-              <SkipForward className="w-4 h-4" /> Skip
+            <button onClick={onSkip} className="px-5 py-3.5 rounded-ios-xl bg-ios-surface shadow-ios text-ios-gray font-semibold flex items-center gap-1.5 active:bg-ios-bg transition-all">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polygon points="5 4 15 12 5 20 5 4"/>
+                <line x1="19" y1="5" x2="19" y2="19"/>
+              </svg>
+              Skip
             </button>
             <button
               onClick={handleCheck}
               disabled={selected.length === 0}
-              className={`flex-1 py-3 rounded-xl font-extrabold text-lg border-b-4 transition-all ${
+              className={`flex-1 py-3.5 rounded-ios-xl font-semibold text-base transition-all ${
                 selected.length > 0
-                  ? 'bg-duo-macaw border-duo-macaw-dark text-white active:border-b-2'
-                  : 'bg-duo-swan border-duo-hare text-white cursor-not-allowed'
+                  ? 'bg-duo-green text-white shadow-ios active:bg-duo-green-dark active:scale-[0.98]'
+                  : 'bg-ios-surface text-ios-gray shadow-ios'
               }`}
             >
               Check
