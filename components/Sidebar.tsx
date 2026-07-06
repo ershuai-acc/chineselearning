@@ -8,11 +8,13 @@ import {
   BookOpen,
   Music,
   HelpCircle,
+  Trophy,
 } from 'lucide-react';
 
 const NAV_ITEMS = [
   { href: '/', label: 'Courses', icon: BookOpen },
   { href: '/pinyin', label: 'Pinyin', icon: Music },
+  { href: '/leaderboard', label: 'Leaderboard', icon: Trophy },
   { href: '/guide', label: 'About', icon: HelpCircle },
 ];
 

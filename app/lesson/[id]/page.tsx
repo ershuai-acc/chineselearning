@@ -8,6 +8,7 @@ import { ReadAloud } from '@/components/exercises/ReadAloud';
 import { TranslateSentence } from '@/components/exercises/TranslateSentence';
 import { FillBlank } from '@/components/exercises/FillBlank';
 import { ListenChoose } from '@/components/exercises/ListenChoose';
+import { getAnonymousUser } from '@/lib/anonymous-user';
 
 interface Word {
   id: string;
@@ -30,6 +31,11 @@ interface LessonData {
   sentences: Sentence[];
 }
 
+interface AlbumInfo {
+  id: string;
+  name: string;
+}
+
 export type ExerciseMode = 'read-aloud' | 'translate' | 'fill-blank' | 'listen-choose';
 
 const MODES: { type: ExerciseMode; title: string; icon: string }[] = [
@@ -45,6 +51,7 @@ export default function ShadowLessonPage() {
   const lessonId = typeof params?.id === 'string' ? params.id : '';
 
   const [lesson, setLesson] = useState<LessonData | null>(null);
+  const [album, setAlbum] = useState<AlbumInfo | null>(null);
   const [currentSentenceIdx, setCurrentSentenceIdx] = useState(0);
   const [currentModeIdx, setCurrentModeIdx] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
@@ -54,7 +61,10 @@ export default function ShadowLessonPage() {
     fetch(`/api/lessons/${lessonId}`)
       .then(res => res.json())
       .then(data => {
-        if (data.success) setLesson(data.lesson);
+        if (data.success) {
+          setLesson(data.lesson);
+          if (data.album) setAlbum(data.album);
+        }
       })
       .catch(console.error)
       .finally(() => setIsLoading(false));
@@ -76,6 +86,25 @@ export default function ShadowLessonPage() {
     localStorage.setItem(`shadow-progress-${lessonId}`, JSON.stringify({ sentenceIdx, modeIdx }));
   }, [lessonId]);
 
+  const reportCompletion = useCallback(async () => {
+    if (!lesson || !album) return;
+    try {
+      const { userId, codeName } = getAnonymousUser();
+      await fetch('/api/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId,
+          codeName,
+          lessonId: lesson.id,
+          source: album.name,
+        }),
+      });
+    } catch {
+      // Silently fail - leaderboard is secondary
+    }
+  }, [lesson, album]);
+
   const advanceToNext = useCallback(() => {
     if (!lesson) return;
     if (currentModeIdx < MODES.length - 1) {
@@ -83,15 +112,19 @@ export default function ShadowLessonPage() {
       setCurrentModeIdx(next);
       saveProgress(currentSentenceIdx, next);
     } else if (currentSentenceIdx < lesson.sentences.length - 1) {
+      // Sentence completed! Record to leaderboard
+      reportCompletion();
       const next = currentSentenceIdx + 1;
       setCurrentSentenceIdx(next);
       setCurrentModeIdx(0);
       saveProgress(next, 0);
     } else {
+      // Final sentence completed
+      reportCompletion();
       localStorage.removeItem(`shadow-progress-${lessonId}`);
       router.push('/');
     }
-  }, [lesson, currentModeIdx, currentSentenceIdx, saveProgress, lessonId, router]);
+  }, [lesson, currentModeIdx, currentSentenceIdx, saveProgress, lessonId, router, reportCompletion]);
 
   const currentSentence = lesson?.sentences[currentSentenceIdx];
   const currentMode = MODES[currentModeIdx];

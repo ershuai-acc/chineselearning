@@ -3,7 +3,7 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
 }
 
@@ -19,14 +19,14 @@ model User {
 }
 
 model Album {
-  id          String   @id @db.VarChar(64)
+  id          String   @id
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   name        String
   nameEn      String
   icon        String
-  coverImage  String?  @db.Text
-  language    String   @db.VarChar(8)
+  coverImage  String?
+  language    String
   description String?
   sortOrder   Int      @default(0)
   lessons     Lesson[]
@@ -39,10 +39,10 @@ model Lesson {
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
   title      String
-  content    String   @db.LongText
+  content    String
   coverImage String?
   language   String   @default("zh")
-  albumId    String?  @db.VarChar(64)
+  albumId    String?
   album      Album?   @relation(fields: [albumId], references: [id])
   progress   Progress[]
 
@@ -57,23 +57,35 @@ model Progress {
   lessonId      String
   user          User     @relation(fields: [userId], references: [id])
   lesson        Lesson   @relation(fields: [lessonId], references: [id])
-  levelProgress String   @db.Text
+  levelProgress String
 
   @@unique([userId, lessonId])
 }
 
 model Vocabulary {
-  id                 String   @id @default(cuid())
-  createdAt          DateTime @default(now())
-  updatedAt          DateTime @updatedAt
-  userId             String
-  word               String
-  language           String   @default("zh")
-  definition         String?  @db.Text
-  phonetic           String?
-  sourceContext      String?  @db.Text
-  lessonId           String?
-  user               User     @relation(fields: [userId], references: [id])
+  id            String   @id @default(cuid())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  userId        String
+  word          String
+  language      String  @default("zh")
+  definition    String?
+  phonetic      String?
+  sourceContext String?
+  lessonId      String?
+  user          User    @relation(fields: [userId], references: [id])
 
   @@unique([userId, word, language])
+}
+
+model CompletionLog {
+  id         String   @id @default(cuid())
+  createdAt  DateTime @default(now())
+  userId     String
+  codeName   String
+  lessonId   String
+  source     String?
+
+  @@index([createdAt])
+  @@index([userId, createdAt])
 }
